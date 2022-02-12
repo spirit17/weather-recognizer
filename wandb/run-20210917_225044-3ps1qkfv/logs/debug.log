@@ -1,0 +1,91 @@
+2021-09-17 22:50:44,797 INFO    MainThread:23520 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-17 22:50:44,797 INFO    MainThread:23520 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-17 22:50:44,798 INFO    MainThread:23520 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-17 22:50:44,798 INFO    MainThread:23520 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210917_225044-3ps1qkfv\logs\debug.log
+2021-09-17 22:50:44,799 INFO    MainThread:23520 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210917_225044-3ps1qkfv\logs\debug-internal.log
+2021-09-17 22:50:44,800 INFO    MainThread:23520 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002D3EE4A19A0>
+2021-09-17 22:50:44,814 INFO    MainThread:23520 [wandb_init.py:init():375] calling init triggers
+2021-09-17 22:50:44,814 INFO    MainThread:23520 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-17 22:50:44,814 INFO    MainThread:23520 [wandb_init.py:init():424] starting backend
+2021-09-17 22:50:44,814 INFO    MainThread:23520 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-17 22:50:44,848 INFO    MainThread:23520 [backend.py:ensure_launched():135] starting backend process...
+2021-09-17 22:50:45,805 INFO    MainThread:23520 [backend.py:ensure_launched():139] started backend process with pid: 21204
+2021-09-17 22:50:45,807 INFO    MainThread:23520 [wandb_init.py:init():429] backend started and connected
+2021-09-17 22:50:45,810 INFO    MainThread:23520 [wandb_run.py:_label_probe_notebook():815] probe notebook
+2021-09-17 22:50:45,814 INFO    MainThread:23520 [wandb_run.py:_label_probe_notebook():822] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-17 22:50:45,814 INFO    MainThread:23520 [wandb_init.py:init():477] updated telemetry
+2021-09-17 22:50:45,816 INFO    MainThread:23520 [wandb_init.py:init():500] communicating current version
+2021-09-17 22:50:50,818 INFO    MainThread:23520 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-09-17 22:50:52,055 INFO    MainThread:23520 [wandb_init.py:init():540] starting run threads in backend
+2021-09-17 22:50:57,085 INFO    MainThread:23520 [wandb_run.py:_console_start():1601] atexit reg
+2021-09-17 22:50:57,087 INFO    MainThread:23520 [wandb_run.py:_redirect():1475] redirect: SettingsConsole.WRAP
+2021-09-17 22:50:57,088 INFO    MainThread:23520 [wandb_run.py:_redirect():1512] Wrapping output streams.
+2021-09-17 22:50:57,095 INFO    MainThread:23520 [wandb_run.py:_redirect():1536] Redirects installed.
+2021-09-17 22:50:57,095 INFO    MainThread:23520 [wandb_init.py:init():565] run started, returning control to user process
+2021-09-17 22:50:57,096 INFO    MainThread:23520 [wandb_config.py:__setitem__():141] config set epochs = 60 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002D3F1367070>>
+2021-09-17 22:50:57,097 INFO    MainThread:23520 [wandb_run.py:_config_callback():843] config_cb epochs 60 None
+2021-09-17 22:50:57,098 INFO    MainThread:23520 [wandb_config.py:__setitem__():141] config set size = 128 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002D3F1367070>>
+2021-09-17 22:50:57,098 INFO    MainThread:23520 [wandb_run.py:_config_callback():843] config_cb size 128 None
+2021-09-17 22:50:57,099 INFO    MainThread:23520 [wandb_config.py:__setitem__():141] config set dropout = 0.3 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002D3F1367070>>
+2021-09-17 22:50:57,099 INFO    MainThread:23520 [wandb_run.py:_config_callback():843] config_cb dropout 0.3 None
+2021-09-17 22:50:57,100 INFO    MainThread:23520 [wandb_config.py:__setitem__():141] config set batch_size = 14 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002D3F1367070>>
+2021-09-17 22:50:57,101 INFO    MainThread:23520 [wandb_run.py:_config_callback():843] config_cb batch_size 14 None
+2021-09-17 22:50:57,102 INFO    MainThread:23520 [wandb_config.py:__setitem__():141] config set pool_size = [6, 6] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002D3F1367070>>
+2021-09-17 22:50:57,102 INFO    MainThread:23520 [wandb_run.py:_config_callback():843] config_cb pool_size [6, 6] None
+2021-09-17 22:50:57,103 INFO    MainThread:23520 [wandb_config.py:__setitem__():141] config set shear_range = 0.4 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002D3F1367070>>
+2021-09-17 22:50:57,104 INFO    MainThread:23520 [wandb_run.py:_config_callback():843] config_cb shear_range 0.4 None
+2021-09-17 22:50:57,105 INFO    MainThread:23520 [wandb_config.py:__setitem__():141] config set zoom_range = 0.4 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002D3F1367070>>
+2021-09-17 22:50:57,105 INFO    MainThread:23520 [wandb_run.py:_config_callback():843] config_cb zoom_range 0.4 None
+2021-09-17 22:59:19,853 INFO    MainThread:23520 [wandb_init.py:_pause_backend():256] pausing backend
+2021-09-17 22:59:19,854 INFO    MainThread:23520 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-17 22:59:19,869 INFO    MainThread:23520 [wandb_run.py:_atexit_cleanup():1571] got exitcode: 0
+2021-09-17 22:59:19,870 INFO    MainThread:23520 [wandb_run.py:_restore():1543] restore
+2021-09-17 22:59:20,262 INFO    MainThread:23520 [wandb_run.py:_wait_for_finish():1693] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 476
+}
+
+2021-09-17 22:59:21,508 INFO    MainThread:23520 [wandb_run.py:_wait_for_finish():1693] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 476
+}
+
+2021-09-17 22:59:21,856 INFO    MainThread:23520 [wandb_run.py:_wait_for_finish():1693] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 23561
+}
+
+2021-09-17 22:59:21,960 INFO    MainThread:23520 [wandb_run.py:_wait_for_finish():1693] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 23561
+}
+
+2021-09-17 22:59:22,062 INFO    MainThread:23520 [wandb_run.py:_wait_for_finish():1693] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 23561
+}
+
+2021-09-17 22:59:22,167 INFO    MainThread:23520 [wandb_run.py:_wait_for_finish():1693] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 23561
+}
+

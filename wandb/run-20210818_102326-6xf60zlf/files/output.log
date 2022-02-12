@@ -1,0 +1,7 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/25
+
+
+
+12/37 [========>.....................] - ETA: 14s - loss: 1.4112 - accuracy: 0.2264Error in callback <bound method AutoreloadMagics.post_execute_hook of <autoreload.AutoreloadMagics object at 0x000001B79F4C1040>> (for post_execute):

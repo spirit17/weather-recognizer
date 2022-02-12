@@ -1,0 +1,5 @@
+2021-08-23 17:31:01,552 INFO    MainThread:6552 [internal.py:wandb_internal():86] W&B internal server running at pid: 6552, started at: 2021-08-23 17:31:01.516083
+2021-08-23 17:31:01,557 INFO    WriterThread:6552 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210823_172938-1uy4lh4q\run-1uy4lh4q.wandb
+2021-08-23 17:31:01,559 DEBUG   HandlerThread:6552 [handler.py:handle_request():128] handle_request: check_version
+2021-08-23 17:31:01,565 DEBUG   SenderThread:6552 [sender.py:send():182] send: header
+2021-08-23 17:31:01,566 DEBUG   SenderThread:6552 [sender.py:send_request():196] send_request: check_version

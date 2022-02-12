@@ -1,0 +1,821 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.3826 - accuracy: 0.2569
+85/85 [==============================] - 37s 396ms/step - loss: 1.3826 - accuracy: 0.2569 - val_loss: 1.3802 - val_accuracy: 0.2381
+Epoch 2/60
+
+
+
+
+
+
+
+
+
+
+82/85 [===========================>..] - ETA: 1s - loss: 1.2251 - accuracy: 0.3949
+85/85 [==============================] - 24s 276ms/step - loss: 1.2248 - accuracy: 0.3982 - val_loss: 1.1897 - val_accuracy: 0.5000
+Epoch 3/60
+
+
+
+
+
+
+
+
+
+
+85/85 [============================>.] - ETA: 0s - loss: 1.0990 - accuracy: 0.4466
+85/85 [==============================] - 24s 274ms/step - loss: 1.0988 - accuracy: 0.4456 - val_loss: 1.1935 - val_accuracy: 0.4643
+Epoch 4/60
+
+
+
+
+
+
+
+
+
+
+
+84/85 [============================>.] - ETA: 0s - loss: 1.1332 - accuracy: 0.4451
+85/85 [==============================] - 25s 286ms/step - loss: 1.1305 - accuracy: 0.4456 - val_loss: 1.1401 - val_accuracy: 0.5119
+Epoch 5/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.0543 - accuracy: 0.4855
+85/85 [==============================] - 23s 273ms/step - loss: 1.0543 - accuracy: 0.4855 - val_loss: 1.1141 - val_accuracy: 0.5833
+Epoch 6/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.0237 - accuracy: 0.5278
+85/85 [==============================] - 23s 270ms/step - loss: 1.0237 - accuracy: 0.5278 - val_loss: 1.1182 - val_accuracy: 0.5476
+Epoch 7/60
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 274ms/step - loss: 1.0061 - accuracy: 0.5320 - val_loss: 1.0711 - val_accuracy: 0.5833
+Epoch 8/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.9989 - accuracy: 0.5445
+85/85 [==============================] - 23s 273ms/step - loss: 0.9989 - accuracy: 0.5445 - val_loss: 1.0401 - val_accuracy: 0.6310
+Epoch 9/60
+
+
+
+
+
+
+
+
+
+
+
+85/85 [============================>.] - ETA: 0s - loss: 0.9883 - accuracy: 0.5652
+85/85 [==============================] - 24s 276ms/step - loss: 0.9879 - accuracy: 0.5653 - val_loss: 1.0733 - val_accuracy: 0.6310
+Epoch 10/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.9484 - accuracy: 0.6143
+85/85 [==============================] - 24s 272ms/step - loss: 0.9484 - accuracy: 0.6143 - val_loss: 1.0840 - val_accuracy: 0.5833
+Epoch 11/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.9402 - accuracy: 0.6118
+85/85 [==============================] - 24s 278ms/step - loss: 0.9402 - accuracy: 0.6118 - val_loss: 1.0089 - val_accuracy: 0.6429
+Epoch 12/60
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 23s 270ms/step - loss: 0.8907 - accuracy: 0.6459 - val_loss: 0.9858 - val_accuracy: 0.6310
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 13/60
+
+
+
+
+
+
+
+
+
+
+85/85 [============================>.] - ETA: 0s - loss: 0.8584 - accuracy: 0.6787
+85/85 [==============================] - 24s 274ms/step - loss: 0.8588 - accuracy: 0.6775 - val_loss: 1.0772 - val_accuracy: 0.6190
+Epoch 14/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.8567 - accuracy: 0.6650
+85/85 [==============================] - 24s 274ms/step - loss: 0.8567 - accuracy: 0.6650 - val_loss: 0.9628 - val_accuracy: 0.6310
+Epoch 15/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.8199 - accuracy: 0.7091
+85/85 [==============================] - 24s 274ms/step - loss: 0.8199 - accuracy: 0.7091 - val_loss: 0.9747 - val_accuracy: 0.6667
+Epoch 16/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.8100 - accuracy: 0.6991
+85/85 [==============================] - 23s 271ms/step - loss: 0.8100 - accuracy: 0.6991 - val_loss: 0.9185 - val_accuracy: 0.6667
+Epoch 17/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.7485 - accuracy: 0.7116
+85/85 [==============================] - 24s 283ms/step - loss: 0.7485 - accuracy: 0.7116 - val_loss: 0.9147 - val_accuracy: 0.6548
+Epoch 18/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.7352 - accuracy: 0.7373
+85/85 [==============================] - 24s 278ms/step - loss: 0.7352 - accuracy: 0.7373 - val_loss: 0.9316 - val_accuracy: 0.6786
+Epoch 19/60
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 23s 272ms/step - loss: 0.7373 - accuracy: 0.7332 - val_loss: 0.8820 - val_accuracy: 0.6548
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 20/60
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 277ms/step - loss: 0.7459 - accuracy: 0.7390 - val_loss: 0.9279 - val_accuracy: 0.6310
+Epoch 21/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+
+
+
+
+
+84/85 [============================>.] - ETA: 0s - loss: 0.7418 - accuracy: 0.7226
+85/85 [==============================] - 24s 275ms/step - loss: 0.7393 - accuracy: 0.7240 - val_loss: 0.9024 - val_accuracy: 0.6548
+Epoch 22/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.7532 - accuracy: 0.7157
+85/85 [==============================] - 24s 273ms/step - loss: 0.7532 - accuracy: 0.7157 - val_loss: 0.8352 - val_accuracy: 0.6429
+Epoch 23/60
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 273ms/step - loss: 0.7134 - accuracy: 0.7506 - val_loss: 0.7756 - val_accuracy: 0.6667
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 24/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.6726 - accuracy: 0.7456
+85/85 [==============================] - 24s 275ms/step - loss: 0.6726 - accuracy: 0.7456 - val_loss: 0.7710 - val_accuracy: 0.7500
+Epoch 25/60
+
+
+
+
+
+
+
+
+
+
+83/85 [===========================>..] - ETA: 0s - loss: 0.6902 - accuracy: 0.7494
+85/85 [==============================] - 23s 271ms/step - loss: 0.6778 - accuracy: 0.7564 - val_loss: 0.8327 - val_accuracy: 0.6905
+Epoch 26/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.6515 - accuracy: 0.7523
+85/85 [==============================] - 23s 273ms/step - loss: 0.6515 - accuracy: 0.7523 - val_loss: 0.8279 - val_accuracy: 0.7024
+Epoch 27/60
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 274ms/step - loss: 0.6593 - accuracy: 0.7523 - val_loss: 0.8458 - val_accuracy: 0.6786
+Epoch 28/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 23s 273ms/step - loss: 0.6015 - accuracy: 0.7797 - val_loss: 0.7868 - val_accuracy: 0.6786
+Epoch 29/60
+ 2/85 [..............................] - ETA: 30s - loss: 0.3411 - accuracy: 0.8571
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.6348 - accuracy: 0.7697
+85/85 [==============================] - 23s 274ms/step - loss: 0.6348 - accuracy: 0.7697 - val_loss: 0.8353 - val_accuracy: 0.6905
+Epoch 30/60
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 25s 292ms/step - loss: 0.6379 - accuracy: 0.7772 - val_loss: 0.7362 - val_accuracy: 0.7262
+Epoch 31/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 278ms/step - loss: 0.6104 - accuracy: 0.7614 - val_loss: 0.7572 - val_accuracy: 0.6786
+Epoch 32/60
+ 1/85 [..............................] - ETA: 22s - loss: 0.3558 - accuracy: 0.7857
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 281ms/step - loss: 0.6216 - accuracy: 0.7564 - val_loss: 0.7683 - val_accuracy: 0.7262
+Epoch 33/60
+ 1/85 [..............................] - ETA: 34s - loss: 0.6065 - accuracy: 0.7143
+
+
+
+
+
+
+
+
+
+
+
+
+85/85 [============================>.] - ETA: 0s - loss: 0.6309 - accuracy: 0.7578
+
+85/85 [==============================] - 26s 296ms/step - loss: 0.6306 - accuracy: 0.7573 - val_loss: 0.7247 - val_accuracy: 0.7262
+Epoch 34/60
+
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 26s 300ms/step - loss: 0.5923 - accuracy: 0.7731 - val_loss: 0.8110 - val_accuracy: 0.7024
+Epoch 35/60
+ 3/85 [>.............................] - ETA: 22s - loss: 0.8826 - accuracy: 0.6429
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 25s 287ms/step - loss: 0.6201 - accuracy: 0.7789 - val_loss: 0.7762 - val_accuracy: 0.6667
+Epoch 36/60
+ 1/85 [..............................] - ETA: 27s - loss: 0.6277 - accuracy: 0.7143
+
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.5950 - accuracy: 0.7922
+85/85 [==============================] - 25s 291ms/step - loss: 0.5950 - accuracy: 0.7922 - val_loss: 0.8078 - val_accuracy: 0.7024
+Epoch 37/60
+
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.5617 - accuracy: 0.8022
+85/85 [==============================] - 27s 312ms/step - loss: 0.5617 - accuracy: 0.8022 - val_loss: 0.8069 - val_accuracy: 0.6786
+Epoch 38/60
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 25s 288ms/step - loss: 0.5330 - accuracy: 0.8130 - val_loss: 0.8105 - val_accuracy: 0.7024
+Epoch 39/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.5972 - accuracy: 0.7756
+85/85 [==============================] - 25s 288ms/step - loss: 0.5972 - accuracy: 0.7756 - val_loss: 0.9982 - val_accuracy: 0.6905
+Epoch 40/60
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 276ms/step - loss: 0.5707 - accuracy: 0.7855 - val_loss: 0.7780 - val_accuracy: 0.7143
+Epoch 41/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.5903 - accuracy: 0.7847
+85/85 [==============================] - 23s 268ms/step - loss: 0.5903 - accuracy: 0.7847 - val_loss: 0.8286 - val_accuracy: 0.7024
+Epoch 42/60
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 275ms/step - loss: 0.5409 - accuracy: 0.8071 - val_loss: 0.8553 - val_accuracy: 0.7262
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 43/60
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 23s 267ms/step - loss: 0.5491 - accuracy: 0.7897 - val_loss: 0.8997 - val_accuracy: 0.7024
+Epoch 44/60
+ 1/85 [..............................] - ETA: 18s - loss: 0.3656 - accuracy: 0.8571
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.5335 - accuracy: 0.8130
+85/85 [==============================] - 23s 272ms/step - loss: 0.5335 - accuracy: 0.8130 - val_loss: 0.7508 - val_accuracy: 0.7619
+Epoch 45/60
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 23s 270ms/step - loss: 0.5090 - accuracy: 0.8121 - val_loss: 0.7140 - val_accuracy: 0.7500
+Epoch 46/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.5075 - accuracy: 0.8180
+85/85 [==============================] - 23s 268ms/step - loss: 0.5075 - accuracy: 0.8180 - val_loss: 0.7569 - val_accuracy: 0.7143
+Epoch 47/60
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.5301 - accuracy: 0.8055
+85/85 [==============================] - 23s 271ms/step - loss: 0.5301 - accuracy: 0.8055 - val_loss: 0.8319 - val_accuracy: 0.7143
+Epoch 48/60
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 274ms/step - loss: 0.5378 - accuracy: 0.8180 - val_loss: 0.7890 - val_accuracy: 0.7381
+Epoch 49/60
+ 2/85 [..............................] - ETA: 20s - loss: 0.4100 - accuracy: 0.8214
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 0.4903 - accuracy: 0.8263
+85/85 [==============================] - 23s 271ms/step - loss: 0.4903 - accuracy: 0.8263 - val_loss: 0.9372 - val_accuracy: 0.6905
+Epoch 50/60
+15/85 [====>.........................] - ETA: 16s - loss: 0.5717 - accuracy: 0.7905
+20/85 [=====>........................] - ETA: 18s - loss: 0.5115 - accuracy: 0.8143
+29/85 [=========>....................] - ETA: 15s - loss: 0.5133 - accuracy: 0.8030
+37/85 [===========>..................] - ETA: 12s - loss: 0.5011 - accuracy: 0.8108
+43/85 [==============>...............] - ETA: 11s - loss: 0.5145 - accuracy: 0.8007
+51/85 [================>.............] - ETA: 9s - loss: 0.4939 - accuracy: 0.8095
+59/85 [===================>..........] - ETA: 7s - loss: 0.5015 - accuracy: 0.8099
+68/85 [======================>.......] - ETA: 4s - loss: 0.5234 - accuracy: 0.8044
+76/85 [=========================>....] - ETA: 2s - loss: 0.5276 - accuracy: 0.8006
+84/85 [============================>.] - ETA: 0s - loss: 0.5390 - accuracy: 0.7949
+ 1/85 [..............................] - ETA: 21s - loss: 0.9498 - accuracy: 0.57140.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+ 1/85 [..............................] - ETA: 21s - loss: 0.9498 - accuracy: 0.57140.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+ 9/85 [==>...........................] - ETA: 22s - loss: 0.5387 - accuracy: 0.77780.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+17/85 [====>.........................] - ETA: 18s - loss: 0.5416 - accuracy: 0.78570.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+25/85 [=======>......................] - ETA: 16s - loss: 0.4957 - accuracy: 0.79370.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+32/85 [==========>...................] - ETA: 13s - loss: 0.4925 - accuracy: 0.79870.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+39/85 [============>.................] - ETA: 12s - loss: 0.5057 - accuracy: 0.79820.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+47/85 [===============>..............] - ETA: 10s - loss: 0.4863 - accuracy: 0.80370.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+54/85 [=================>............] - ETA: 8s - loss: 0.4872 - accuracy: 0.8040 0.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+63/85 [====================>.........] - ETA: 6s - loss: 0.4818 - accuracy: 0.8070 0.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+72/85 [========================>.....] - ETA: 3s - loss: 0.4975 - accuracy: 0.8034 0.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+81/85 [===========================>..] - ETA: 1s - loss: 0.4887 - accuracy: 0.8102 0.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+86/85 [==============================] - ETA: 0s - loss: 0.4777 - accuracy: 0.8171 0.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+86/85 [==============================] - ETA: 0s - loss: 0.4777 - accuracy: 0.8171 0.7930 - val_loss: 0.7882 - val_accuracy: 0.7381
+ 2/85 [..............................] - ETA: 23s - loss: 0.4861 - accuracy: 0.82140.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+10/85 [==>...........................] - ETA: 23s - loss: 0.4606 - accuracy: 0.82140.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+18/85 [=====>........................] - ETA: 19s - loss: 0.4465 - accuracy: 0.83330.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+25/85 [=======>......................] - ETA: 16s - loss: 0.4874 - accuracy: 0.81140.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+34/85 [==========>...................] - ETA: 13s - loss: 0.4766 - accuracy: 0.81260.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+41/85 [=============>................] - ETA: 11s - loss: 0.4973 - accuracy: 0.80630.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+49/85 [================>.............] - ETA: 9s - loss: 0.4915 - accuracy: 0.8117 0.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+56/85 [==================>...........] - ETA: 8s - loss: 0.4971 - accuracy: 0.8084 0.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+65/85 [=====================>........] - ETA: 5s - loss: 0.4862 - accuracy: 0.8130 0.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+73/85 [========================>.....] - ETA: 3s - loss: 0.4812 - accuracy: 0.8159 0.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+81/85 [===========================>..] - ETA: 1s - loss: 0.4794 - accuracy: 0.8173 0.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+86/85 [==============================] - ETA: 0s - loss: 0.4814 - accuracy: 0.8163 0.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+86/85 [==============================] - ETA: 0s - loss: 0.4814 - accuracy: 0.8163 0.8171 - val_loss: 0.7678 - val_accuracy: 0.7500
+ 7/85 [=>............................] - ETA: 22s - loss: 0.5270 - accuracy: 0.76530.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+13/85 [===>..........................] - ETA: 18s - loss: 0.5206 - accuracy: 0.79120.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+22/85 [======>.......................] - ETA: 15s - loss: 0.5461 - accuracy: 0.79870.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+28/85 [========>.....................] - ETA: 15s - loss: 0.5448 - accuracy: 0.78770.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+36/85 [===========>..................] - ETA: 13s - loss: 0.5497 - accuracy: 0.78730.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+43/85 [==============>...............] - ETA: 11s - loss: 0.5573 - accuracy: 0.77870.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+50/85 [================>.............] - ETA: 9s - loss: 0.5419 - accuracy: 0.7854 0.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+58/85 [===================>..........] - ETA: 7s - loss: 0.5375 - accuracy: 0.7879 0.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+66/85 [======================>.......] - ETA: 5s - loss: 0.5308 - accuracy: 0.7941 0.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+73/85 [========================>.....] - ETA: 3s - loss: 0.5248 - accuracy: 0.8002 0.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+82/85 [===========================>..] - ETA: 1s - loss: 0.5144 - accuracy: 0.8047 0.8163 - val_loss: 1.0204 - val_accuracy: 0.7024
+85/85 [==============================] - 24s 278ms/step - loss: 0.5136 - accuracy: 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+85/85 [==============================] - 24s 278ms/step - loss: 0.5136 - accuracy: 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+ 9/85 [==>...........................] - ETA: 17s - loss: 0.4229 - accuracy: 0.84130.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+16/85 [====>.........................] - ETA: 16s - loss: 0.4979 - accuracy: 0.80800.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+21/85 [======>.......................] - ETA: 17s - loss: 0.4676 - accuracy: 0.81570.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+29/85 [=========>....................] - ETA: 15s - loss: 0.4752 - accuracy: 0.81480.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+35/85 [===========>..................] - ETA: 14s - loss: 0.4962 - accuracy: 0.81600.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+43/85 [==============>...............] - ETA: 11s - loss: 0.4974 - accuracy: 0.81530.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+51/85 [================>.............] - ETA: 9s - loss: 0.4831 - accuracy: 0.8289 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+60/85 [===================>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+60/85 [===================>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+60/85 [===================>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+60/85 [===================>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 55/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 56/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 57/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 58/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 59/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+Epoch 60/60===============>..........] - ETA: 6s - loss: 0.4778 - accuracy: 0.8248 0.8071 - val_loss: 0.9254 - val_accuracy: 0.7262
+wandb: WARNING No validation_data set, pass a generator to the callback.

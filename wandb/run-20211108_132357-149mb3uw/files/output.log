@@ -1,0 +1,75 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/5
+
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.3502 - accuracy: 0.2926
+85/85 [==============================] - 28s 300ms/step - loss: 1.3502 - accuracy: 0.2926 - val_loss: 1.2565 - val_accuracy: 0.3929
+Epoch 2/5
+
+
+
+
+
+
+
+
+
+
+83/85 [===========================>..] - ETA: 0s - loss: 1.1242 - accuracy: 0.4410
+
+85/85 [==============================] - 24s 282ms/step - loss: 1.1174 - accuracy: 0.4414 - val_loss: 1.1894 - val_accuracy: 0.5000
+Epoch 3/5
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.0778 - accuracy: 0.4597
+85/85 [==============================] - 24s 280ms/step - loss: 1.0778 - accuracy: 0.4597 - val_loss: 1.1518 - val_accuracy: 0.5119
+Epoch 4/5
+
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 26s 298ms/step - loss: 1.0592 - accuracy: 0.5021 - val_loss: 1.1946 - val_accuracy: 0.4405
+wandb: WARNING No validation_data set, pass a generator to the callback.
+Epoch 5/5
+
+
+
+
+
+
+
+
+
+
+
+
+85/85 [==============================] - 24s 283ms/step - loss: 1.0289 - accuracy: 0.5254 - val_loss: 1.2403 - val_accuracy: 0.3929
+wandb: WARNING No validation_data set, pass a generator to the callback.

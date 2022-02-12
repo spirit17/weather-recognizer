@@ -1,0 +1,116 @@
+2021-08-23 17:15:59,120 INFO    MainThread:12188 [internal.py:wandb_internal():86] W&B internal server running at pid: 12188, started at: 2021-08-23 17:15:59.100067
+2021-08-23 17:15:59,124 INFO    WriterThread:12188 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\run-2razn0jy.wandb
+2021-08-23 17:15:59,125 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: check_version
+2021-08-23 17:15:59,130 DEBUG   SenderThread:12188 [sender.py:send():182] send: header
+2021-08-23 17:15:59,130 DEBUG   SenderThread:12188 [sender.py:send_request():196] send_request: check_version
+2021-08-23 17:16:01,066 DEBUG   SenderThread:12188 [sender.py:send():182] send: run
+2021-08-23 17:16:01,995 INFO    SenderThread:12188 [dir_watcher.py:__init__():168] watching files in: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\files
+2021-08-23 17:16:01,996 INFO    SenderThread:12188 [sender.py:_start_run_threads():740] run started: 2razn0jy with start time 1629719154
+2021-08-23 17:16:01,996 DEBUG   SenderThread:12188 [sender.py:send():182] send: summary
+2021-08-23 17:16:01,997 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: run_start
+2021-08-23 17:16:01,999 INFO    SenderThread:12188 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-23 17:16:03,004 INFO    Thread-8  :12188 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\files\wandb-summary.json
+2021-08-23 17:16:08,026 INFO    Thread-8  :12188 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\files\output.log
+2021-08-23 17:16:08,968 DEBUG   HandlerThread:12188 [meta.py:__init__():39] meta init
+2021-08-23 17:16:08,968 DEBUG   HandlerThread:12188 [meta.py:__init__():53] meta init done
+2021-08-23 17:16:08,968 DEBUG   HandlerThread:12188 [meta.py:probe():210] probe
+2021-08-23 17:16:09,179 DEBUG   HandlerThread:12188 [meta.py:_save_pip():57] save pip
+2021-08-23 17:16:09,182 DEBUG   HandlerThread:12188 [meta.py:_save_pip():71] save pip done
+2021-08-23 17:16:09,183 DEBUG   HandlerThread:12188 [meta.py:_save_conda():78] save conda
+2021-08-23 17:16:10,027 INFO    Thread-8  :12188 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\files\conda-environment.yaml
+2021-08-23 17:16:10,028 INFO    Thread-8  :12188 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\files\requirements.txt
+2021-08-23 17:16:47,104 INFO    Thread-8  :12188 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\files\conda-environment.yaml
+2021-08-23 17:16:47,213 DEBUG   HandlerThread:12188 [meta.py:_save_conda():86] save conda done
+2021-08-23 17:16:47,213 DEBUG   HandlerThread:12188 [meta.py:probe():252] probe done
+2021-08-23 17:16:47,267 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 17:16:47,267 DEBUG   SenderThread:12188 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 17:16:47,275 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: pause
+2021-08-23 17:16:47,275 INFO    HandlerThread:12188 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-23 17:16:48,106 INFO    Thread-8  :12188 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\files\wandb-metadata.json
+2021-08-23 17:16:51,231 ERROR   SenderThread:12188 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\HP\anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001A6B8571370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B8571370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B8571370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-08-23 17:16:57,922 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None)). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:17:00,241 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/khushal/weather-recognization/2razn0jy/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B8571730>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:17:04,435 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/khushal/weather-recognization/2razn0jy/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B8559AC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:17:13,041 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/khushal/weather-recognization/2razn0jy/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B8559AC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:17:32,599 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/khushal/weather-recognization/2razn0jy/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B8571910>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:18:10,385 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/khushal/weather-recognization/2razn0jy/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B85711F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:19:15,408 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/khushal/weather-recognization/2razn0jy/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B860BEE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:21:38,052 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/khushal/weather-recognization/2razn0jy/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B8615250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:26:42,384 WARNING FileStreamThread:12188 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/khushal/weather-recognization/2razn0jy/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A6B8615490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x000001A6B0ED5130>>, args: ('https://api.wandb.ai/files/khushal/weather-recognization/2razn0jy/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-08-23 17:29:38,779 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: resume
+2021-08-23 17:29:38,779 INFO    HandlerThread:12188 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-23 17:29:40,026 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:29:40,045 INFO    Thread-8  :12188 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210823_171554-2razn0jy\files\output.log
+2021-08-23 17:29:45,125 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:29:50,226 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:29:55,328 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:00,428 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:05,528 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:10,629 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:15,729 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:20,829 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:25,941 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:31,030 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:36,133 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:41,234 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:46,337 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-23 17:30:51,438 DEBUG   HandlerThread:12188 [handler.py:handle_request():128] handle_request: poll_exit

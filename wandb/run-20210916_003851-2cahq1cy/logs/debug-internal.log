@@ -1,0 +1,83 @@
+2021-09-16 00:39:00,557 INFO    MainThread:18792 [internal.py:wandb_internal():86] W&B internal server running at pid: 18792, started at: 2021-09-16 00:39:00.540207
+2021-09-16 00:39:00,565 INFO    WriterThread:18792 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\run-2cahq1cy.wandb
+2021-09-16 00:39:00,565 DEBUG   HandlerThread:18792 [handler.py:handle_request():126] handle_request: check_version
+2021-09-16 00:39:00,570 DEBUG   SenderThread:18792 [sender.py:send():182] send: header
+2021-09-16 00:39:00,571 DEBUG   SenderThread:18792 [sender.py:send_request():196] send_request: check_version
+2021-09-16 00:39:01,988 DEBUG   SenderThread:18792 [sender.py:send():182] send: run
+2021-09-16 00:39:02,632 DEBUG   HandlerThread:18792 [handler.py:handle_request():126] handle_request: run_start
+2021-09-16 00:39:02,727 INFO    SenderThread:18792 [dir_watcher.py:__init__():169] watching files in: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files
+2021-09-16 00:39:02,727 INFO    SenderThread:18792 [sender.py:_start_run_threads():740] run started: 2cahq1cy with start time 1631732932
+2021-09-16 00:39:02,727 DEBUG   SenderThread:18792 [sender.py:send():182] send: summary
+2021-09-16 00:39:02,751 INFO    SenderThread:18792 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-16 00:39:03,734 INFO    Thread-8  :18792 [dir_watcher.py:_on_file_created():217] file/dir created: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\wandb-summary.json
+2021-09-16 00:39:08,744 INFO    Thread-8  :18792 [dir_watcher.py:_on_file_created():217] file/dir created: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\output.log
+2021-09-16 00:39:09,741 INFO    SenderThread:18792 [sender.py:finish():979] shutting down sender
+2021-09-16 00:39:09,741 INFO    SenderThread:18792 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-16 00:39:09,742 INFO    WriterThread:18792 [datastore.py:close():281] close: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\run-2cahq1cy.wandb
+2021-09-16 00:39:09,749 INFO    Thread-8  :18792 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\output.log
+2021-09-16 00:39:09,751 INFO    SenderThread:18792 [dir_watcher.py:finish():313] scan: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files
+2021-09-16 00:39:09,752 INFO    SenderThread:18792 [dir_watcher.py:finish():327] scan save: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\config.yaml config.yaml
+2021-09-16 00:39:09,753 INFO    SenderThread:18792 [dir_watcher.py:finish():327] scan save: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\output.log output.log
+2021-09-16 00:39:09,755 INFO    SenderThread:18792 [dir_watcher.py:finish():327] scan save: F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\wandb-summary.json wandb-summary.json
+2021-09-16 00:39:09,756 INFO    SenderThread:18792 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-16 00:39:09,756 INFO    SenderThread:18792 [file_pusher.py:join():182] waiting for file pusher
+2021-09-16 00:39:12,113 INFO    Thread-12 :18792 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\wandb-summary.json
+2021-09-16 00:39:12,123 INFO    Thread-10 :18792 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\config.yaml
+2021-09-16 00:39:12,124 INFO    Thread-11 :18792 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210916_003851-2cahq1cy\files\output.log
+2021-09-16 00:39:13,151 ERROR   MainThread:18792 [internal.py:wandb_internal():157] Thread HandlerThread:
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 52, in run
+    self._run()
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 102, in _run
+    self._process(record)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\internal.py", line 245, in _process
+    self._hm.handle(record)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\handler.py", line 118, in handle
+    handler(record)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\handler.py", line 128, in handle_request
+    handler(record)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\handler.py", line 539, in handle_request_run_start
+    self._system_stats = stats.SystemStats(pid=pid, interface=self._interface)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\stats.py", line 98, in __init__
+    if tpu.is_tpu_available():
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\tpu.py", line 91, in is_tpu_available
+    from tensorflow.python.distribute.cluster_resolver import tpu_cluster_resolver  # type: ignore  # noqa
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\__init__.py", line 41, in <module>
+    from tensorflow.python.tools import module_util as _module_util
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\__init__.py", line 49, in <module>
+    from tensorflow.python.feature_column import feature_column_lib as feature_column
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\feature_column\feature_column_lib.py", line 22, in <module>
+    from tensorflow.python.feature_column.feature_column import *
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\feature_column\feature_column.py", line 147, in <module>
+    from tensorflow.python.layers import base
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\layers\base.py", line 20, in <module>
+    from tensorflow.python.keras.legacy_tf_layers import base
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\__init__.py", line 25, in <module>
+    from tensorflow.python.keras import models
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\models.py", line 20, in <module>
+    from tensorflow.python.keras import metrics as metrics_module
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\metrics.py", line 34, in <module>
+    from tensorflow.python.keras import activations
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\activations.py", line 18, in <module>
+    from tensorflow.python.keras.layers import advanced_activations
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\layers\__init__.py", line 29, in <module>
+    from tensorflow.python.keras.layers.preprocessing.image_preprocessing import CenterCrop
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\layers\preprocessing\image_preprocessing.py", line 29, in <module>
+    from tensorflow.python.keras.preprocessing import image as image_preprocessing
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\preprocessing\__init__.py", line 26, in <module>
+    from tensorflow.python.keras.utils import all_utils as utils
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\utils\all_utils.py", line 34, in <module>
+    from tensorflow.python.keras.utils.multi_gpu_utils import multi_gpu_model
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\utils\multi_gpu_utils.py", line 19, in <module>
+    from tensorflow.python.keras.engine.training import Model
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\engine\training.py", line 52, in <module>
+    from tensorflow.python.keras.saving import hdf5_format
+  File "C:\Users\HP\anaconda3\lib\site-packages\tensorflow\python\keras\saving\hdf5_format.py", line 37, in <module>
+    import h5py
+  File "C:\Users\HP\anaconda3\lib\site-packages\h5py\__init__.py", line 34, in <module>
+    from . import version
+  File "C:\Users\HP\anaconda3\lib\site-packages\h5py\version.py", line 17, in <module>
+    from . import h5 as _h5
+  File "h5py\h5.pyx", line 41, in init h5py.h5
+AttributeError: type object 'h5py.h5.H5PYConfig' has no attribute '__reduce_cython__'
+2021-09-16 00:39:16,233 INFO    MainThread:18792 [internal.py:handle_exit():76] Internal process exited

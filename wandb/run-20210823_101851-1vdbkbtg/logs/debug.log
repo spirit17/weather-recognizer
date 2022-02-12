@@ -1,0 +1,79 @@
+2021-08-23 10:18:51,768 INFO    MainThread:15924 [wandb_setup.py:_flush():69] setting env: {}
+2021-08-23 10:18:51,768 INFO    MainThread:15924 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-23 10:18:51,769 INFO    MainThread:15924 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210823_101851-1vdbkbtg\logs\debug.log
+2021-08-23 10:18:51,770 INFO    MainThread:15924 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210823_101851-1vdbkbtg\logs\debug-internal.log
+2021-08-23 10:18:51,772 INFO    MainThread:15924 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000272276FD160>
+2021-08-23 10:18:51,774 INFO    MainThread:15924 [wandb_init.py:init():375] calling init triggers
+2021-08-23 10:18:51,774 INFO    MainThread:15924 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-08-23 10:18:51,775 INFO    MainThread:15924 [wandb_init.py:init():424] starting backend
+2021-08-23 10:18:51,775 INFO    MainThread:15924 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-08-23 10:18:51,830 INFO    MainThread:15924 [backend.py:ensure_launched():135] starting backend process...
+2021-08-23 10:18:52,418 INFO    MainThread:15924 [backend.py:ensure_launched():139] started backend process with pid: 15220
+2021-08-23 10:18:52,420 INFO    MainThread:15924 [wandb_init.py:init():429] backend started and connected
+2021-08-23 10:18:52,422 INFO    MainThread:15924 [wandb_run.py:_label_probe_notebook():798] probe notebook
+2021-08-23 10:18:52,425 INFO    MainThread:15924 [wandb_run.py:_label_probe_notebook():805] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-08-23 10:18:52,425 INFO    MainThread:15924 [wandb_init.py:init():477] updated telemetry
+2021-08-23 10:18:52,428 INFO    MainThread:15924 [wandb_init.py:init():500] communicating current version
+2021-08-23 10:18:57,274 INFO    MainThread:15924 [wandb_init.py:init():505] got version response 
+2021-08-23 10:18:57,274 INFO    MainThread:15924 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-08-23 10:19:01,374 ERROR   Thread-8  :15924 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\HP\anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000027230BDA130>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000027230BDA130>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000027230BDA130>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))

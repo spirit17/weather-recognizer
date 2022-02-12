@@ -1,0 +1,53 @@
+2021-09-15 12:07:02,634 INFO    MainThread:13112 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-15 12:07:02,634 INFO    MainThread:13112 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-15 12:07:02,635 INFO    MainThread:13112 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-15 12:07:02,635 INFO    MainThread:13112 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210915_120702-2wzonpyb\logs\debug.log
+2021-09-15 12:07:02,635 INFO    MainThread:13112 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210915_120702-2wzonpyb\logs\debug-internal.log
+2021-09-15 12:07:02,636 INFO    MainThread:13112 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001C6A892B550>
+2021-09-15 12:07:02,663 INFO    MainThread:13112 [wandb_init.py:init():375] calling init triggers
+2021-09-15 12:07:02,663 INFO    MainThread:13112 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-15 12:07:02,663 INFO    MainThread:13112 [wandb_init.py:init():424] starting backend
+2021-09-15 12:07:02,663 INFO    MainThread:13112 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-15 12:07:02,670 INFO    MainThread:13112 [backend.py:ensure_launched():135] starting backend process...
+2021-09-15 12:07:02,776 INFO    MainThread:13112 [backend.py:ensure_launched():139] started backend process with pid: 12872
+2021-09-15 12:07:02,777 INFO    MainThread:13112 [wandb_init.py:init():429] backend started and connected
+2021-09-15 12:07:02,778 INFO    MainThread:13112 [wandb_run.py:_label_probe_notebook():815] probe notebook
+2021-09-15 12:07:02,778 INFO    MainThread:13112 [wandb_run.py:_label_probe_notebook():822] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-15 12:07:02,778 INFO    MainThread:13112 [wandb_init.py:init():477] updated telemetry
+2021-09-15 12:07:02,779 INFO    MainThread:13112 [wandb_init.py:init():500] communicating current version
+2021-09-15 12:07:05,236 INFO    MainThread:13112 [wandb_init.py:init():505] got version response 
+2021-09-15 12:07:05,236 INFO    MainThread:13112 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-09-15 12:07:06,233 INFO    MainThread:13112 [wandb_init.py:init():540] starting run threads in backend
+2021-09-15 12:07:11,246 INFO    MainThread:13112 [wandb_run.py:_console_start():1601] atexit reg
+2021-09-15 12:07:11,270 INFO    MainThread:13112 [wandb_run.py:_redirect():1475] redirect: SettingsConsole.WRAP
+2021-09-15 12:07:11,270 INFO    MainThread:13112 [wandb_run.py:_redirect():1512] Wrapping output streams.
+2021-09-15 12:07:11,272 INFO    MainThread:13112 [wandb_run.py:_redirect():1536] Redirects installed.
+2021-09-15 12:07:11,272 INFO    MainThread:13112 [wandb_init.py:init():565] run started, returning control to user process
+2021-09-15 12:07:11,273 INFO    MainThread:13112 [wandb_config.py:__setitem__():141] config set epochs = 60 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001C6A8C2BFA0>>
+2021-09-15 12:07:11,273 INFO    MainThread:13112 [wandb_run.py:_config_callback():843] config_cb epochs 60 None
+2021-09-15 12:07:11,273 INFO    MainThread:13112 [wandb_config.py:__setitem__():141] config set size = 128 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001C6A8C2BFA0>>
+2021-09-15 12:07:11,273 INFO    MainThread:13112 [wandb_run.py:_config_callback():843] config_cb size 128 None
+2021-09-15 12:07:11,274 INFO    MainThread:13112 [wandb_config.py:__setitem__():141] config set dropout = 0.1 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001C6A8C2BFA0>>
+2021-09-15 12:07:11,274 INFO    MainThread:13112 [wandb_run.py:_config_callback():843] config_cb dropout 0.1 None
+2021-09-15 12:07:11,274 INFO    MainThread:13112 [wandb_config.py:__setitem__():141] config set batch_size = 14 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001C6A8C2BFA0>>
+2021-09-15 12:07:11,274 INFO    MainThread:13112 [wandb_run.py:_config_callback():843] config_cb batch_size 14 None
+2021-09-15 12:07:11,275 INFO    MainThread:13112 [wandb_config.py:__setitem__():141] config set pool_size = [4, 4] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001C6A8C2BFA0>>
+2021-09-15 12:07:11,275 INFO    MainThread:13112 [wandb_run.py:_config_callback():843] config_cb pool_size [4, 4] None
+2021-09-15 12:07:11,275 INFO    MainThread:13112 [wandb_config.py:__setitem__():141] config set shear_range = 0.4 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001C6A8C2BFA0>>
+2021-09-15 12:07:11,276 INFO    MainThread:13112 [wandb_run.py:_config_callback():843] config_cb shear_range 0.4 None
+2021-09-15 12:07:11,276 INFO    MainThread:13112 [wandb_config.py:__setitem__():141] config set zoom_range = 0.4 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001C6A8C2BFA0>>
+2021-09-15 12:07:11,276 INFO    MainThread:13112 [wandb_run.py:_config_callback():843] config_cb zoom_range 0.4 None
+2021-09-15 12:07:11,494 INFO    MainThread:13112 [wandb_init.py:_pause_backend():256] pausing backend
+2021-09-15 12:07:11,494 INFO    MainThread:13112 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-15 12:16:55,663 INFO    MainThread:13112 [wandb_init.py:_resume_backend():265] resuming backend
+2021-09-15 12:16:55,764 INFO    MainThread:13112 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-15 12:16:55,765 INFO    MainThread:13112 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-15 12:16:55,765 INFO    MainThread:13112 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-15 12:16:55,765 INFO    MainThread:13112 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210915_121655-1ip316kn\logs\debug.log
+2021-09-15 12:16:55,766 INFO    MainThread:13112 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210915_121655-1ip316kn\logs\debug-internal.log
+2021-09-15 12:16:55,767 INFO    MainThread:13112 [wandb_init.py:init():375] calling init triggers
+2021-09-15 12:16:55,792 INFO    MainThread:13112 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-15 12:16:55,792 INFO    MainThread:13112 [wandb_init.py:init():395] re-initializing run, found existing run on stack: 2wzonpyb
+2021-09-15 12:16:55,792 INFO    MainThread:13112 [wandb_run.py:finish():1271] finishing run khushal/last-weather-recognization/2wzonpyb

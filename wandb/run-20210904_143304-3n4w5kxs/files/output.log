@@ -1,0 +1,250 @@
+Found 0 images belonging to 0 classes.
+Found 0 images belonging to 0 classes.
+[autoreload of graphql.language.ast failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+TypeError: __class__ assignment: 'Document' object layout differs from 'Document'
+]
+[autoreload of graphql.type.definition failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+TypeError: __class__ assignment: 'GraphQLScalarType' object layout differs from 'GraphQLScalarType'
+]
+[autoreload of graphql failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\HP\anaconda3\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\HP\anaconda3\lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'graphql'
+]
+[autoreload of gql failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\HP\anaconda3\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\HP\anaconda3\lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'gql'
+]
+[autoreload of wandb.apis.public failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 292, in update_class
+    if (old_obj == new_obj) is True:
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\graphql-core-1.1\graphql\language\ast.py", line 26, in __eq__
+    self.definitions == other.definitions
+TypeError: descriptor 'definitions' for 'Document' objects doesn't apply to a 'Document' object
+]
+[autoreload of wandb.sdk.wandb_config failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_config.py", line 143, in __setitem__
+    self._callback(key=key, val=val)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 829, in _config_callback
+    ) -> Dict[str, str]:
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\interface\interface.py", line 617, in publish_config
+    self._publish_config(cfg)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\interface\interface.py", line 621, in _publish_config
+    self._publish(rec)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\interface\interface.py", line 530, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+]
+[autoreload of wandb.sdk.wandb_settings failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_settings.py", line 972, in __setattr__
+    self._update({name: value}, _source=self.Source.SETUP)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_settings.py", line 814, in _update
+    raise TypeError("Settings object is frozen")
+TypeError: Settings object is frozen
+]
+[autoreload of wandb.proto.wandb_telemetry_pb2 failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\HP\anaconda3\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\HP\anaconda3\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\proto\wandb_telemetry_pb2.py", line 16, in <module>
+    DESCRIPTOR = _descriptor.FileDescriptor(
+  File "C:\Users\HP\anaconda3\lib\site-packages\google\protobuf\descriptor.py", line 983, in __new__
+    return _message.default_pool.AddSerializedFile(serialized_pb)
+TypeError: Couldn't build proto file into descriptor pool!
+Invalid proto descriptor for file "wandb/proto/wandb_telemetry.proto":
+  wandb/proto/wandb_telemetry.proto: A file with this name is already in the pool.
+]
+[autoreload of wandb.sdk.wandb_summary failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_summary.py", line 54, in __setitem__
+    self.update({key: val})
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_summary.py", line 76, in update
+    self._update(record)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_summary.py", line 131, in _update
+    self._update_callback(record)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 836, in _summary_update_callback
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\interface\interface.py", line 625, in publish_summary
+    self._publish_summary(pb_summary_record)
+Exception: The wandb backend process has shutdown
+]
+[autoreload of wandb.sdk.wandb_run failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 405, in __setattr__
+    super(Run, self).__setattr__(attr, value)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+]
+[autoreload of watchdog.utils.unicode_paths failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\HP\anaconda3\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\HP\anaconda3\lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'watchdog.utils.unicode_paths'
+]
+[autoreload of watchdog.events failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 302, in update_class
+    if update_generic(old_obj, new_obj): continue
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 266, in update_function
+    setattr(old, name, getattr(new, name))
+ValueError: __init__() requires a code object with 1 free vars, not 0
+]
+[autoreload of watchdog.utils.bricks failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 302, in update_class
+    if update_generic(old_obj, new_obj): continue
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 266, in update_function
+    setattr(old, name, getattr(new, name))
+ValueError: _init() requires a code object with 0 free vars, not 1
+]
+[autoreload of wandb failed: Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\HP\anaconda3\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\HP\anaconda3\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\HP\anaconda3\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\__init__.py", line 38, in <module>
+    wandb.wandb_lib = wandb_sdk.lib
+AttributeError: module 'wandb.sdk' has no attribute 'lib'
+]
+Error in callback <function _WandbInit._resume_backend at 0x000001FA43C51F70> (for pre_run_cell):
+Found 0 images belonging to 0 classes.
+Error in callback <function _WandbInit._pause_backend at 0x000001FA43C51EE0> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x000001FA43C51F70> (for pre_run_cell):
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: wandb version 0.12.1 is available!  To upgrade, please run:
+[34m[1mwandb[39m[22m:  $ pip install wandb --upgrade
+Found 0 images belonging to 0 classes.
+Found 0 images belonging to 0 classes.
+[34m[1mwandb[39m[22m: Tracking run with wandb version 0.12.0
+[34m[1mwandb[39m[22m: Syncing run [33mastral-wind-25
+[34m[1mwandb[39m[22m:  View project at [34m[4mhttps://wandb.ai/khushal/final-weather-recognization
+[34m[1mwandb[39m[22m:  View run at [34m[4mhttps://wandb.ai/khushal/final-weather-recognization/runs/3dkw39fb
+[34m[1mwandb[39m[22m: Run data is saved locally in <code>F:\5th sem project\wandb\run-20210904_143514-3dkw39fb</code>
+[34m[1mwandb[39m[22m: Run `wandb offline` to turn off syncing.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Waiting for W&B process to finish, PID 10012
+[34m[1mwandb[39m[22m: Program ended successfully.
+Problem at: <ipython-input-13-e02d496380f8> 22 <module>
+[34m[1mwandb[39m[22m: Find user logs for this run at: <code>F:\5th sem project\wandb\run-20210904_143514-3dkw39fb\logs\debug.log</code>
+[34m[1mwandb[39m[22m: Find internal logs for this run at: <code>F:\5th sem project\wandb\run-20210904_143514-3dkw39fb\logs\debug-internal.log</code>
+[34m[1mwandb[39m[22m: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Synced [33mastral-wind-25[39m: [34mhttps://wandb.ai/khushal/final-weather-recognization/runs/3dkw39fb
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 775, in init
+    run = wi.init()
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 412, in init
+    self._wl._global_run_stack[-1].finish()
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 1278, in finish
+    module.unset_globals()
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\lib\module.py", line 48, in unset_globals
+    wandb.log = preinit.PreInitCallable("wandb.log", wandb.wandb_sdk.wandb_run.Run.log)

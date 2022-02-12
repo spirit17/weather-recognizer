@@ -1,0 +1,26 @@
+2021-09-06 13:27:20,616 INFO    MainThread:336 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-06 13:27:20,617 INFO    MainThread:336 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-06 13:27:20,617 INFO    MainThread:336 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-06 13:27:20,617 INFO    MainThread:336 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210906_132720-1mh9h3bv\logs\debug.log
+2021-09-06 13:27:20,617 INFO    MainThread:336 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210906_132720-1mh9h3bv\logs\debug-internal.log
+2021-09-06 13:27:20,618 INFO    MainThread:336 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002EE93C279D0>
+2021-09-06 13:27:20,651 INFO    MainThread:336 [wandb_init.py:init():375] calling init triggers
+2021-09-06 13:27:20,652 INFO    MainThread:336 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-06 13:27:20,652 INFO    MainThread:336 [wandb_init.py:init():424] starting backend
+2021-09-06 13:27:20,652 INFO    MainThread:336 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-06 13:27:20,658 INFO    MainThread:336 [backend.py:ensure_launched():135] starting backend process...
+2021-09-06 13:27:21,524 INFO    MainThread:336 [backend.py:ensure_launched():139] started backend process with pid: 15412
+2021-09-06 13:27:21,525 INFO    MainThread:336 [wandb_init.py:init():429] backend started and connected
+2021-09-06 13:27:21,526 INFO    MainThread:336 [wandb_run.py:_label_probe_notebook():815] probe notebook
+2021-09-06 13:27:21,526 INFO    MainThread:336 [wandb_run.py:_label_probe_notebook():822] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-06 13:27:21,526 INFO    MainThread:336 [wandb_init.py:init():477] updated telemetry
+2021-09-06 13:27:21,527 INFO    MainThread:336 [wandb_init.py:init():500] communicating current version
+2021-09-06 13:27:26,527 INFO    MainThread:336 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-09-06 13:27:34,632 INFO    MainThread:336 [wandb_init.py:init():540] starting run threads in backend
+2021-09-06 13:27:39,644 INFO    MainThread:336 [wandb_run.py:_console_start():1601] atexit reg
+2021-09-06 13:27:39,645 INFO    MainThread:336 [wandb_run.py:_redirect():1475] redirect: SettingsConsole.WRAP
+2021-09-06 13:27:39,645 INFO    MainThread:336 [wandb_run.py:_redirect():1512] Wrapping output streams.
+2021-09-06 13:27:39,647 INFO    MainThread:336 [wandb_run.py:_redirect():1536] Redirects installed.
+2021-09-06 13:27:39,647 INFO    MainThread:336 [wandb_init.py:init():565] run started, returning control to user process
+2021-09-06 13:51:42,373 INFO    MainThread:336 [wandb_run.py:finish():1271] finishing run khushal/2final-weather-recognization/1mh9h3bv

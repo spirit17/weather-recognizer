@@ -1,0 +1,59 @@
+2021-09-02 18:36:51,813 INFO    MainThread:18020 [internal.py:wandb_internal():86] W&B internal server running at pid: 18020, started at: 2021-09-02 18:36:51.791878
+2021-09-02 18:36:51,818 INFO    WriterThread:18020 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\run-2otls7wy.wandb
+2021-09-02 18:36:51,819 DEBUG   HandlerThread:18020 [handler.py:handle_request():128] handle_request: check_version
+2021-09-02 18:36:51,828 DEBUG   SenderThread:18020 [sender.py:send():182] send: header
+2021-09-02 18:36:51,828 DEBUG   SenderThread:18020 [sender.py:send_request():196] send_request: check_version
+2021-09-02 18:36:53,404 DEBUG   SenderThread:18020 [sender.py:send():182] send: run
+2021-09-02 18:36:54,219 INFO    SenderThread:18020 [dir_watcher.py:__init__():168] watching files in: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files
+2021-09-02 18:36:54,220 INFO    SenderThread:18020 [sender.py:_start_run_threads():740] run started: 2otls7wy with start time 1630588006
+2021-09-02 18:36:54,220 DEBUG   SenderThread:18020 [sender.py:send():182] send: summary
+2021-09-02 18:36:54,221 DEBUG   HandlerThread:18020 [handler.py:handle_request():128] handle_request: run_start
+2021-09-02 18:36:54,223 INFO    SenderThread:18020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-02 18:36:55,243 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\wandb-summary.json
+2021-09-02 18:37:00,251 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:02,270 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:03,623 DEBUG   HandlerThread:18020 [meta.py:__init__():39] meta init
+2021-09-02 18:37:03,624 DEBUG   HandlerThread:18020 [meta.py:__init__():53] meta init done
+2021-09-02 18:37:03,624 DEBUG   HandlerThread:18020 [meta.py:probe():210] probe
+2021-09-02 18:37:04,928 DEBUG   HandlerThread:18020 [meta.py:_save_pip():57] save pip
+2021-09-02 18:37:04,932 DEBUG   HandlerThread:18020 [meta.py:_save_pip():71] save pip done
+2021-09-02 18:37:04,933 DEBUG   HandlerThread:18020 [meta.py:_save_conda():78] save conda
+2021-09-02 18:37:05,282 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\requirements.txt
+2021-09-02 18:37:05,290 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\conda-environment.yaml
+2021-09-02 18:37:06,283 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:08,368 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:10,427 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:12,428 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:14,431 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:16,433 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:18,445 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:20,455 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:22,466 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:23,480 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:25,532 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:27,543 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:29,550 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:31,592 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:33,603 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:35,613 INFO    Thread-8  :18020 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:41,131 WARNING MainThread:18020 [internal.py:is_dead():364] Internal process exiting, parent pid 21128 disappeared
+2021-09-02 18:37:41,131 ERROR   MainThread:18020 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-02 18:37:41,218 INFO    WriterThread:18020 [datastore.py:close():281] close: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\run-2otls7wy.wandb
+2021-09-02 18:37:41,395 INFO    SenderThread:18020 [sender.py:finish():979] shutting down sender
+2021-09-02 18:37:41,397 INFO    SenderThread:18020 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-09-02 18:37:41,630 INFO    SenderThread:18020 [dir_watcher.py:finish():312] scan: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files
+2021-09-02 18:37:41,631 INFO    SenderThread:18020 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\conda-environment.yaml conda-environment.yaml
+2021-09-02 18:37:41,632 INFO    SenderThread:18020 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\config.yaml config.yaml
+2021-09-02 18:37:41,632 INFO    SenderThread:18020 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log output.log
+2021-09-02 18:37:41,633 INFO    SenderThread:18020 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\requirements.txt requirements.txt
+2021-09-02 18:37:41,634 INFO    SenderThread:18020 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\wandb-summary.json wandb-summary.json
+2021-09-02 18:37:41,635 INFO    SenderThread:18020 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-02 18:37:41,635 INFO    SenderThread:18020 [file_pusher.py:join():182] waiting for file pusher
+2021-09-02 18:37:43,371 INFO    Thread-13 :18020 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\requirements.txt
+2021-09-02 18:37:43,382 INFO    Thread-12 :18020 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\output.log
+2021-09-02 18:37:43,382 INFO    Thread-14 :18020 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\wandb-summary.json
+2021-09-02 18:37:43,383 INFO    Thread-11 :18020 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210902_183646-2otls7wy\files\config.yaml
+2021-09-02 18:37:49,930 DEBUG   HandlerThread:18020 [meta.py:_save_conda():86] save conda done
+2021-09-02 18:37:49,931 DEBUG   HandlerThread:18020 [meta.py:probe():252] probe done
+2021-09-02 18:37:49,944 INFO    HandlerThread:18020 [handler.py:finish():677] shutting down handler
+2021-09-02 18:37:49,946 INFO    MainThread:18020 [internal.py:handle_exit():76] Internal process exited

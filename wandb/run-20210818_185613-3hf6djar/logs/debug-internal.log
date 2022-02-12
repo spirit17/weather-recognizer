@@ -1,0 +1,56 @@
+2021-08-18 18:56:22,404 INFO    MainThread:12692 [internal.py:wandb_internal():86] W&B internal server running at pid: 12692, started at: 2021-08-18 18:56:22.393788
+2021-08-18 18:56:22,408 INFO    WriterThread:12692 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\run-3hf6djar.wandb
+2021-08-18 18:56:22,409 DEBUG   HandlerThread:12692 [handler.py:handle_request():128] handle_request: check_version
+2021-08-18 18:56:22,412 DEBUG   SenderThread:12692 [sender.py:send():182] send: header
+2021-08-18 18:56:22,412 DEBUG   SenderThread:12692 [sender.py:send_request():196] send_request: check_version
+2021-08-18 18:56:27,416 DEBUG   SenderThread:12692 [sender.py:send():182] send: run
+2021-08-18 18:56:30,061 DEBUG   HandlerThread:12692 [handler.py:handle_request():128] handle_request: run_start
+2021-08-18 18:56:30,072 INFO    SenderThread:12692 [dir_watcher.py:__init__():168] watching files in: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files
+2021-08-18 18:56:30,072 INFO    SenderThread:12692 [sender.py:_start_run_threads():740] run started: 3hf6djar with start time 1629293179
+2021-08-18 18:56:30,072 DEBUG   SenderThread:12692 [sender.py:send():182] send: summary
+2021-08-18 18:56:30,073 INFO    SenderThread:12692 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 18:56:31,073 INFO    Thread-8  :12692 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\wandb-summary.json
+2021-08-18 18:56:34,914 DEBUG   HandlerThread:12692 [meta.py:__init__():39] meta init
+2021-08-18 18:56:34,914 DEBUG   HandlerThread:12692 [meta.py:__init__():53] meta init done
+2021-08-18 18:56:34,914 DEBUG   HandlerThread:12692 [meta.py:probe():210] probe
+2021-08-18 18:56:34,923 DEBUG   HandlerThread:12692 [meta.py:_save_pip():57] save pip
+2021-08-18 18:56:34,924 DEBUG   HandlerThread:12692 [meta.py:_save_pip():71] save pip done
+2021-08-18 18:56:34,925 DEBUG   HandlerThread:12692 [meta.py:_save_conda():78] save conda
+2021-08-18 18:56:35,074 INFO    Thread-8  :12692 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\requirements.txt
+2021-08-18 18:56:35,075 INFO    Thread-8  :12692 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\conda-environment.yaml
+2021-08-18 18:56:36,074 INFO    Thread-8  :12692 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\output.log
+2021-08-18 18:56:38,075 INFO    Thread-8  :12692 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\output.log
+2021-08-18 18:56:54,019 DEBUG   HandlerThread:12692 [meta.py:_save_conda():86] save conda done
+2021-08-18 18:56:54,019 DEBUG   HandlerThread:12692 [meta.py:probe():252] probe done
+2021-08-18 18:56:54,032 DEBUG   HandlerThread:12692 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:56:54,032 DEBUG   SenderThread:12692 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:56:54,093 INFO    Thread-8  :12692 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\conda-environment.yaml
+2021-08-18 18:56:54,093 INFO    Thread-8  :12692 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\wandb-metadata.json
+2021-08-18 18:56:54,618 DEBUG   SenderThread:12692 [sender.py:send():182] send: config
+2021-08-18 18:56:54,618 DEBUG   SenderThread:12692 [sender.py:send():182] send: files
+2021-08-18 18:56:54,619 INFO    SenderThread:12692 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-18 18:56:55,979 INFO    Thread-11 :12692 [upload_job.py:push():137] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpap8_63sgwandb\136l06ya-wandb-metadata.json
+2021-08-18 18:57:06,066 DEBUG   SenderThread:12692 [sender.py:send():182] send: stats
+2021-08-18 18:57:09,620 DEBUG   HandlerThread:12692 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:57:09,621 DEBUG   SenderThread:12692 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:57:20,643 DEBUG   HandlerThread:12692 [handler.py:handle_request():128] handle_request: shutdown
+2021-08-18 18:57:20,643 INFO    HandlerThread:12692 [handler.py:finish():677] shutting down handler
+2021-08-18 18:57:21,072 INFO    WriterThread:12692 [datastore.py:close():281] close: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\run-3hf6djar.wandb
+2021-08-18 18:57:21,128 INFO    Thread-8  :12692 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\output.log
+2021-08-18 18:57:21,236 INFO    SenderThread:12692 [sender.py:finish():979] shutting down sender
+2021-08-18 18:57:21,236 INFO    SenderThread:12692 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-18 18:57:22,131 INFO    SenderThread:12692 [dir_watcher.py:finish():312] scan: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files
+2021-08-18 18:57:22,132 INFO    SenderThread:12692 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\conda-environment.yaml conda-environment.yaml
+2021-08-18 18:57:22,133 INFO    SenderThread:12692 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\config.yaml config.yaml
+2021-08-18 18:57:22,134 INFO    SenderThread:12692 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\output.log output.log
+2021-08-18 18:57:22,146 INFO    SenderThread:12692 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\requirements.txt requirements.txt
+2021-08-18 18:57:22,160 INFO    SenderThread:12692 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\wandb-metadata.json wandb-metadata.json
+2021-08-18 18:57:22,161 INFO    SenderThread:12692 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\wandb-summary.json wandb-summary.json
+2021-08-18 18:57:22,182 INFO    SenderThread:12692 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-18 18:57:22,183 INFO    SenderThread:12692 [file_pusher.py:join():182] waiting for file pusher
+2021-08-18 18:57:24,816 INFO    Thread-15 :12692 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\requirements.txt
+2021-08-18 18:57:25,960 INFO    Thread-16 :12692 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\wandb-summary.json
+2021-08-18 18:57:26,012 INFO    Thread-13 :12692 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\config.yaml
+2021-08-18 18:57:26,116 INFO    Thread-12 :12692 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\conda-environment.yaml
+2021-08-18 18:57:26,152 INFO    Thread-14 :12692 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_185613-3hf6djar\files\output.log
+2021-08-18 18:57:27,059 INFO    MainThread:12692 [internal.py:handle_exit():76] Internal process exited

@@ -1,0 +1,38 @@
+2021-08-23 10:15:48,741 INFO    MainThread:22200 [wandb_setup.py:_flush():69] setting env: {}
+2021-08-23 10:15:48,743 INFO    MainThread:22200 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-23 10:15:48,744 INFO    MainThread:22200 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210823_101548-11ao73o0\logs\debug.log
+2021-08-23 10:15:48,744 INFO    MainThread:22200 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210823_101548-11ao73o0\logs\debug-internal.log
+2021-08-23 10:15:48,745 INFO    MainThread:22200 [wandb_init.py:init():375] calling init triggers
+2021-08-23 10:15:48,746 INFO    MainThread:22200 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-08-23 10:15:48,780 INFO    MainThread:22200 [wandb_init.py:init():395] re-initializing run, found existing run on stack: 19m2nq3w
+2021-08-23 10:15:48,780 INFO    MainThread:22200 [wandb_run.py:finish():1254] finishing run khushal/weather-recognization/19m2nq3w
+2021-08-23 10:15:48,781 INFO    MainThread:22200 [jupyter.py:save_history():339] not saving jupyter history
+2021-08-23 10:15:48,781 INFO    MainThread:22200 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-08-23 10:15:48,781 INFO    MainThread:22200 [wandb_init.py:_jupyter_teardown():275] cleaning up jupyter logic
+2021-08-23 10:15:48,781 INFO    MainThread:22200 [wandb_run.py:_atexit_cleanup():1554] got exitcode: 0
+2021-08-23 10:15:48,782 INFO    MainThread:22200 [wandb_run.py:_restore():1526] restore
+2021-08-23 10:15:54,288 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:15:59,390 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:04,493 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:09,596 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:14,700 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:19,801 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:24,903 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:30,003 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:35,103 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:40,205 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:45,309 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:50,409 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:16:55,509 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:00,611 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:05,713 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:10,813 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:15,914 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:21,015 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:26,116 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:31,218 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:36,318 INFO    MainThread:22200 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 10:17:41,422 INFO    MainThread:22200 [wandb_init.py:init():424] starting backend
+2021-08-23 10:17:41,422 INFO    MainThread:22200 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-08-23 10:17:41,427 INFO    MainThread:22200 [backend.py:ensure_launched():135] starting backend process...

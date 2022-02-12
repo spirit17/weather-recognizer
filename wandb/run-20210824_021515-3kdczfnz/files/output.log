@@ -1,0 +1,124 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 39s 969ms/step - loss: 1.2925 - accuracy: 0.3458 - val_loss: 1.2744 - val_accuracy: 0.4405
+Epoch 2/50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 37s 978ms/step - loss: 1.1304 - accuracy: 0.4597 - val_loss: 1.1629 - val_accuracy: 0.5238
+Epoch 3/50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 37s 973ms/step - loss: 1.0996 - accuracy: 0.4406 - val_loss: 1.2242 - val_accuracy: 0.4524
+Epoch 4/50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 33s 886ms/step - loss: 1.0305 - accuracy: 0.5079 - val_loss: 1.1782 - val_accuracy: 0.6190
+Epoch 5/50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 33s 861ms/step - loss: 0.9991 - accuracy: 0.5478 - val_loss: 1.1450 - val_accuracy: 0.4881
+Epoch 6/50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 36s 956ms/step - loss: 0.9470 - accuracy: 0.5478 - val_loss: 1.1067 - val_accuracy: 0.6548
+Epoch 7/50
+
+
+
+
+
+
+
+
+
+
+
+
+

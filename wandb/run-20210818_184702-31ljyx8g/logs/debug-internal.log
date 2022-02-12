@@ -1,0 +1,137 @@
+2021-08-18 18:47:10,844 INFO    MainThread:15772 [internal.py:wandb_internal():86] W&B internal server running at pid: 15772, started at: 2021-08-18 18:47:10.836728
+2021-08-18 18:47:10,847 INFO    WriterThread:15772 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\run-31ljyx8g.wandb
+2021-08-18 18:47:10,848 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: check_version
+2021-08-18 18:47:10,852 DEBUG   SenderThread:15772 [sender.py:send():182] send: header
+2021-08-18 18:47:10,853 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: check_version
+2021-08-18 18:47:12,307 DEBUG   SenderThread:15772 [sender.py:send():182] send: run
+2021-08-18 18:47:12,938 INFO    SenderThread:15772 [dir_watcher.py:__init__():168] watching files in: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files
+2021-08-18 18:47:12,938 INFO    SenderThread:15772 [sender.py:_start_run_threads():740] run started: 31ljyx8g with start time 1629292628
+2021-08-18 18:47:12,939 DEBUG   SenderThread:15772 [sender.py:send():182] send: summary
+2021-08-18 18:47:12,939 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: run_start
+2021-08-18 18:47:12,972 INFO    SenderThread:15772 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 18:47:13,940 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\wandb-summary.json
+2021-08-18 18:47:17,604 DEBUG   HandlerThread:15772 [meta.py:__init__():39] meta init
+2021-08-18 18:47:17,604 DEBUG   HandlerThread:15772 [meta.py:__init__():53] meta init done
+2021-08-18 18:47:17,604 DEBUG   HandlerThread:15772 [meta.py:probe():210] probe
+2021-08-18 18:47:18,092 DEBUG   HandlerThread:15772 [meta.py:_save_pip():57] save pip
+2021-08-18 18:47:18,094 DEBUG   HandlerThread:15772 [meta.py:_save_pip():71] save pip done
+2021-08-18 18:47:18,095 DEBUG   HandlerThread:15772 [meta.py:_save_conda():78] save conda
+2021-08-18 18:47:18,940 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\conda-environment.yaml
+2021-08-18 18:47:18,941 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\output.log
+2021-08-18 18:47:18,942 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\requirements.txt
+2021-08-18 18:47:20,942 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\output.log
+2021-08-18 18:47:39,650 DEBUG   HandlerThread:15772 [meta.py:_save_conda():86] save conda done
+2021-08-18 18:47:39,650 DEBUG   HandlerThread:15772 [meta.py:probe():252] probe done
+2021-08-18 18:47:39,677 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:47:39,677 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:47:39,682 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: pause
+2021-08-18 18:47:39,682 INFO    HandlerThread:15772 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-18 18:47:39,960 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\conda-environment.yaml
+2021-08-18 18:47:39,961 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\wandb-metadata.json
+2021-08-18 18:47:40,242 DEBUG   SenderThread:15772 [sender.py:send():182] send: config
+2021-08-18 18:47:40,243 DEBUG   SenderThread:15772 [sender.py:send():182] send: files
+2021-08-18 18:47:40,245 INFO    SenderThread:15772 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-18 18:47:40,250 DEBUG   SenderThread:15772 [sender.py:send():182] send: stats
+2021-08-18 18:47:41,653 INFO    Thread-11 :15772 [upload_job.py:push():137] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpq1kj3ea2wandb\2r73tkme-wandb-metadata.json
+2021-08-18 18:47:41,961 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\config.yaml
+2021-08-18 18:47:55,244 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:47:55,244 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:48:10,817 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:48:10,817 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:48:28,718 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:48:28,718 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:48:44,424 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:48:44,425 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:49:00,086 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:49:00,086 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:49:15,805 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:49:15,806 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:49:31,411 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:49:31,411 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:49:47,048 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:49:47,048 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:50:07,145 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:50:07,146 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:50:24,159 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:50:24,160 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:50:43,313 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:50:43,314 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:50:58,903 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:50:58,903 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:51:14,533 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:51:14,533 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:51:30,983 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:51:30,983 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:51:36,025 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: resume
+2021-08-18 18:51:36,025 INFO    HandlerThread:15772 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-18 18:51:36,034 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: pause
+2021-08-18 18:51:36,034 INFO    HandlerThread:15772 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-18 18:51:36,613 DEBUG   SenderThread:15772 [sender.py:send():182] send: stats
+2021-08-18 18:51:50,573 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:51:50,573 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:52:06,281 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:52:06,282 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:52:21,893 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:52:21,893 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:52:42,359 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:52:42,360 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:52:57,959 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:52:57,959 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:53:17,810 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:53:17,810 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:53:37,799 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:53:37,800 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:53:56,053 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:53:56,054 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:54:11,645 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:54:11,646 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:54:28,701 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:54:28,702 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:54:34,215 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: resume
+2021-08-18 18:54:34,215 INFO    HandlerThread:15772 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-18 18:54:34,224 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: pause
+2021-08-18 18:54:34,224 INFO    HandlerThread:15772 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-18 18:54:35,204 DEBUG   SenderThread:15772 [sender.py:send():182] send: stats
+2021-08-18 18:54:48,091 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:54:48,091 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:55:03,687 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:55:03,687 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:55:08,328 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: resume
+2021-08-18 18:55:08,328 INFO    HandlerThread:15772 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-18 18:55:08,341 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: pause
+2021-08-18 18:55:08,342 INFO    HandlerThread:15772 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-18 18:55:09,309 DEBUG   SenderThread:15772 [sender.py:send():182] send: stats
+2021-08-18 18:55:20,576 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:55:20,576 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:55:40,001 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:55:40,002 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:56:00,562 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 18:56:00,563 DEBUG   SenderThread:15772 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 18:56:02,851 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: resume
+2021-08-18 18:56:02,851 INFO    HandlerThread:15772 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-18 18:56:03,190 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: pause
+2021-08-18 18:56:03,191 INFO    HandlerThread:15772 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-18 18:56:03,283 DEBUG   SenderThread:15772 [sender.py:send():182] send: stats
+2021-08-18 18:56:13,816 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: resume
+2021-08-18 18:56:13,816 INFO    HandlerThread:15772 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-18 18:56:14,121 DEBUG   HandlerThread:15772 [handler.py:handle_request():128] handle_request: shutdown
+2021-08-18 18:56:14,121 INFO    HandlerThread:15772 [handler.py:finish():677] shutting down handler
+2021-08-18 18:56:14,139 INFO    SenderThread:15772 [sender.py:finish():979] shutting down sender
+2021-08-18 18:56:14,139 INFO    SenderThread:15772 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-18 18:56:14,288 INFO    WriterThread:15772 [datastore.py:close():281] close: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\run-31ljyx8g.wandb
+2021-08-18 18:56:14,686 INFO    Thread-8  :15772 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\output.log
+2021-08-18 18:56:14,687 INFO    SenderThread:15772 [dir_watcher.py:finish():312] scan: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files
+2021-08-18 18:56:14,688 INFO    SenderThread:15772 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\conda-environment.yaml conda-environment.yaml
+2021-08-18 18:56:14,689 INFO    SenderThread:15772 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\config.yaml config.yaml
+2021-08-18 18:56:14,690 INFO    SenderThread:15772 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\output.log output.log
+2021-08-18 18:56:14,707 INFO    SenderThread:15772 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\requirements.txt requirements.txt
+2021-08-18 18:56:14,711 INFO    SenderThread:15772 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\wandb-metadata.json wandb-metadata.json
+2021-08-18 18:56:14,717 INFO    SenderThread:15772 [dir_watcher.py:finish():318] scan save: F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\wandb-summary.json wandb-summary.json
+2021-08-18 18:56:14,721 INFO    SenderThread:15772 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-18 18:56:14,722 INFO    SenderThread:15772 [file_pusher.py:join():182] waiting for file pusher
+2021-08-18 18:56:17,335 INFO    Thread-19 :15772 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\output.log
+2021-08-18 18:56:17,450 INFO    Thread-21 :15772 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\wandb-summary.json
+2021-08-18 18:56:18,017 INFO    Thread-17 :15772 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\conda-environment.yaml
+2021-08-18 18:56:18,406 INFO    Thread-18 :15772 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\config.yaml
+2021-08-18 18:56:18,448 INFO    Thread-20 :15772 [upload_job.py:push():137] Uploaded file F:\5th sem project\wandb\run-20210818_184702-31ljyx8g\files\requirements.txt
+2021-08-18 18:56:19,113 INFO    MainThread:15772 [internal.py:handle_exit():76] Internal process exited

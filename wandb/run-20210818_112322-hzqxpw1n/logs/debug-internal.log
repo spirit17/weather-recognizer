@@ -1,0 +1,271 @@
+2021-08-18 11:23:27,512 INFO    MainThread:492 [internal.py:wandb_internal():86] W&B internal server running at pid: 492, started at: 2021-08-18 11:23:27.497007
+2021-08-18 11:23:27,512 INFO    WriterThread:492 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\run-hzqxpw1n.wandb
+2021-08-18 11:23:27,512 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: check_version
+2021-08-18 11:23:27,528 DEBUG   SenderThread:492 [sender.py:send():182] send: header
+2021-08-18 11:23:27,528 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: check_version
+2021-08-18 11:23:28,934 DEBUG   SenderThread:492 [sender.py:send():182] send: run
+2021-08-18 11:23:29,746 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: run_start
+2021-08-18 11:23:29,794 INFO    SenderThread:492 [dir_watcher.py:__init__():168] watching files in: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files
+2021-08-18 11:23:29,794 INFO    SenderThread:492 [sender.py:_start_run_threads():740] run started: hzqxpw1n with start time 1629266003
+2021-08-18 11:23:29,794 DEBUG   SenderThread:492 [sender.py:send():182] send: summary
+2021-08-18 11:23:29,794 INFO    SenderThread:492 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 11:23:30,809 INFO    Thread-8  :492 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\wandb-summary.json
+2021-08-18 11:23:34,871 INFO    Thread-8  :492 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:36,856 DEBUG   HandlerThread:492 [meta.py:__init__():39] meta init
+2021-08-18 11:23:36,856 DEBUG   HandlerThread:492 [meta.py:__init__():53] meta init done
+2021-08-18 11:23:36,856 DEBUG   HandlerThread:492 [meta.py:probe():210] probe
+2021-08-18 11:23:36,888 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:37,585 DEBUG   HandlerThread:492 [meta.py:_save_pip():57] save pip
+2021-08-18 11:23:37,585 DEBUG   HandlerThread:492 [meta.py:_save_pip():71] save pip done
+2021-08-18 11:23:37,585 DEBUG   HandlerThread:492 [meta.py:_save_conda():78] save conda
+2021-08-18 11:23:37,913 INFO    Thread-8  :492 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\conda-environment.yaml
+2021-08-18 11:23:37,913 INFO    Thread-8  :492 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\requirements.txt
+2021-08-18 11:23:40,966 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:42,998 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:45,029 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:47,149 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:49,180 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:51,211 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:53,274 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:55,268 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:57,331 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:23:59,534 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:01,548 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:03,594 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:05,657 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:07,672 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:09,694 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:11,741 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:13,772 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:15,819 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:17,845 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:19,876 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:21,907 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:23,970 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:26,011 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:28,058 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:30,151 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:32,185 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:34,257 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:36,304 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:37,335 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\conda-environment.yaml
+2021-08-18 11:24:37,960 DEBUG   HandlerThread:492 [meta.py:_save_conda():86] save conda done
+2021-08-18 11:24:37,960 DEBUG   HandlerThread:492 [meta.py:probe():252] probe done
+2021-08-18 11:24:37,976 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:24:37,976 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:24:38,351 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:38,351 INFO    Thread-8  :492 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\wandb-metadata.json
+2021-08-18 11:24:39,195 DEBUG   SenderThread:492 [sender.py:send():182] send: config
+2021-08-18 11:24:39,226 DEBUG   SenderThread:492 [sender.py:send():182] send: stats
+2021-08-18 11:24:39,226 DEBUG   SenderThread:492 [sender.py:send():182] send: files
+2021-08-18 11:24:39,226 INFO    SenderThread:492 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-18 11:24:40,423 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:41,316 INFO    Thread-11 :492 [upload_job.py:push():137] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp5t4f060pwandb\1vup5iyi-wandb-metadata.json
+2021-08-18 11:24:42,441 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:44,470 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:46,501 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:48,563 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:50,579 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:52,657 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:54,251 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:24:54,251 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:24:54,688 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:55,141 DEBUG   SenderThread:492 [sender.py:send():182] send: stats
+2021-08-18 11:24:56,688 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:24:58,719 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:00,776 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:01,792 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\config.yaml
+2021-08-18 11:25:02,807 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:04,839 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:06,887 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:07,902 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:09,934 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:10,152 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:25:10,152 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:25:11,953 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:14,000 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:16,013 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:18,044 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:20,107 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:22,154 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:24,216 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:25,919 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:25:25,919 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:25:26,247 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:28,294 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:30,325 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:32,425 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:34,097 DEBUG   SenderThread:492 [sender.py:send():182] send: stats
+2021-08-18 11:25:34,456 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:36,550 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:38,581 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:40,612 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:41,686 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:25:41,686 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:25:42,654 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:44,732 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:46,749 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:48,758 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:50,804 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:52,914 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:54,945 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:56,961 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:25:57,461 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:25:57,461 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:25:58,992 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:01,054 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:03,268 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:05,300 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:07,320 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:09,346 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:11,363 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:12,521 DEBUG   SenderThread:492 [sender.py:send():182] send: stats
+2021-08-18 11:26:13,239 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:26:13,239 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:26:13,427 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:15,458 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:17,489 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:19,515 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:21,536 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:23,552 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:25,583 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:27,614 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:29,318 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:26:29,318 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:26:29,631 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:31,740 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:33,813 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:35,835 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:37,866 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:39,898 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:41,929 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:42,679 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: pause
+2021-08-18 11:26:42,679 INFO    HandlerThread:492 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-18 11:26:42,828 DEBUG   SenderThread:492 [sender.py:send():182] send: stats
+2021-08-18 11:26:43,938 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:26:45,373 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:26:45,373 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:27:01,242 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:27:01,242 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:27:17,105 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:27:17,105 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:27:33,103 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:27:33,103 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:27:48,971 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:27:48,971 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:28:04,940 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:28:04,940 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:28:20,712 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:28:20,712 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:28:36,669 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:28:36,669 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:28:52,962 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:28:52,962 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:29:08,731 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:29:08,731 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:29:24,598 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:29:24,598 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:29:40,376 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:29:40,376 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:29:56,346 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:29:56,346 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:30:12,120 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:30:12,120 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:30:27,986 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:30:27,986 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:30:43,751 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:30:43,751 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:30:59,525 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:30:59,525 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:31:15,296 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:31:15,296 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:31:31,076 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:31:31,076 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:31:46,835 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:31:46,835 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:32:02,696 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:32:02,696 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:32:18,480 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:32:18,480 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:32:34,341 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:32:34,341 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:32:50,107 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:32:50,107 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:33:05,891 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:33:05,891 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:33:21,665 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:33:21,665 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:33:37,619 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:33:37,619 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:33:53,401 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:33:53,401 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:34:09,171 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:34:09,171 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:34:24,857 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 11:34:24,857 DEBUG   SenderThread:492 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 11:34:33,306 DEBUG   HandlerThread:492 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 11:34:33,645 INFO    Thread-8  :492 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\files\output.log
+2021-08-18 11:34:37,975 ERROR   SenderThread:492 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\HP\anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000192459A7D90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000192459A7D90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000192459A7D90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-08-18 11:34:48,843 WARNING MainThread:492 [internal.py:is_dead():364] Internal process exiting, parent pid 5372 disappeared
+2021-08-18 11:34:48,843 ERROR   MainThread:492 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-08-18 11:34:49,483 INFO    HandlerThread:492 [handler.py:finish():677] shutting down handler
+2021-08-18 11:34:49,483 INFO    WriterThread:492 [datastore.py:close():281] close: F:\5th sem project\wandb\run-20210818_112322-hzqxpw1n\run-hzqxpw1n.wandb

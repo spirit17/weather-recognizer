@@ -1,0 +1,16 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/50
+
+
+
+
+
+
+
+
+
+
+36/85 [===========>..................] - ETA: 30s - loss: 1.2607 - accuracy: 0.3857WARNING:tensorflow:Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches (in this case, 4250 batches). You may need to use the repeat() function when building your dataset.
+85/85 [==============================] - 24s 272ms/step - loss: 1.2607 - accuracy: 0.3857 - val_loss: 1.0614 - val_accuracy: 0.6310
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

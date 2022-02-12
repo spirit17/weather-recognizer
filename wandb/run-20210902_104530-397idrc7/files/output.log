@@ -1,0 +1,28 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+36/85 [===========>..................] - ETA: 1:14 - loss: 1.2512 - accuracy: 0.4156WARNING:tensorflow:Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches (in this case, 5155.714285714286 batches). You may need to use the repeat() function when building your dataset.
+85/85 [==============================] - 57s 648ms/step - loss: 1.2512 - accuracy: 0.4156 - val_loss: 1.0768 - val_accuracy: 0.5357

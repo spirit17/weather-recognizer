@@ -1,0 +1,489 @@
+2021-09-13 19:53:58,897 INFO    MainThread:8860 [internal.py:wandb_internal():86] W&B internal server running at pid: 8860, started at: 2021-09-13 19:53:58.890482
+2021-09-13 19:53:58,900 INFO    WriterThread:8860 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\run-10kxla2x.wandb
+2021-09-13 19:53:58,901 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: check_version
+2021-09-13 19:53:58,903 DEBUG   SenderThread:8860 [sender.py:send():182] send: header
+2021-09-13 19:53:58,903 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: check_version
+2021-09-13 19:54:00,517 DEBUG   SenderThread:8860 [sender.py:send():182] send: run
+2021-09-13 19:54:01,166 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: run_start
+2021-09-13 19:54:01,195 INFO    SenderThread:8860 [dir_watcher.py:__init__():169] watching files in: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files
+2021-09-13 19:54:01,195 INFO    SenderThread:8860 [sender.py:_start_run_threads():740] run started: 10kxla2x with start time 1631543037
+2021-09-13 19:54:01,196 DEBUG   SenderThread:8860 [sender.py:send():182] send: summary
+2021-09-13 19:54:01,197 INFO    SenderThread:8860 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-13 19:54:02,199 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_created():217] file/dir created: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\wandb-summary.json
+2021-09-13 19:54:03,310 DEBUG   HandlerThread:8860 [meta.py:__init__():40] meta init
+2021-09-13 19:54:03,310 DEBUG   HandlerThread:8860 [meta.py:__init__():54] meta init done
+2021-09-13 19:54:03,310 DEBUG   HandlerThread:8860 [meta.py:probe():211] probe
+2021-09-13 19:54:03,316 DEBUG   HandlerThread:8860 [meta.py:_save_pip():58] save pip
+2021-09-13 19:54:03,320 DEBUG   HandlerThread:8860 [meta.py:_save_pip():72] save pip done
+2021-09-13 19:54:03,320 DEBUG   HandlerThread:8860 [meta.py:_save_conda():79] save conda
+2021-09-13 19:54:04,203 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_created():217] file/dir created: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\conda-environment.yaml
+2021-09-13 19:54:04,203 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_created():217] file/dir created: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\requirements.txt
+2021-09-13 19:54:06,204 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_created():217] file/dir created: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:08,205 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:10,207 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:13,209 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:15,211 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:17,213 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:19,217 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:21,219 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:23,221 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:23,917 DEBUG   HandlerThread:8860 [meta.py:_save_conda():87] save conda done
+2021-09-13 19:54:23,918 DEBUG   HandlerThread:8860 [meta.py:probe():249] probe done
+2021-09-13 19:54:23,926 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:54:23,926 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:54:24,222 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\conda-environment.yaml
+2021-09-13 19:54:24,223 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_created():217] file/dir created: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\wandb-metadata.json
+2021-09-13 19:54:25,226 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:25,249 DEBUG   SenderThread:8860 [sender.py:send():182] send: config
+2021-09-13 19:54:25,249 DEBUG   SenderThread:8860 [sender.py:send():182] send: config
+2021-09-13 19:54:25,250 DEBUG   SenderThread:8860 [sender.py:send():182] send: config
+2021-09-13 19:54:25,250 DEBUG   SenderThread:8860 [sender.py:send():182] send: config
+2021-09-13 19:54:25,250 DEBUG   SenderThread:8860 [sender.py:send():182] send: config
+2021-09-13 19:54:25,250 DEBUG   SenderThread:8860 [sender.py:send():182] send: config
+2021-09-13 19:54:25,250 DEBUG   SenderThread:8860 [sender.py:send():182] send: config
+2021-09-13 19:54:25,251 DEBUG   SenderThread:8860 [sender.py:send():182] send: files
+2021-09-13 19:54:25,252 INFO    SenderThread:8860 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-13 19:54:27,227 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:27,397 INFO    Thread-11 :8860 [upload_job.py:push():137] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpwhlum4r1wandb\21s6c2vb-wandb-metadata.json
+2021-09-13 19:54:29,230 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:31,233 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:31,233 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\config.yaml
+2021-09-13 19:54:32,256 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:54:33,241 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:35,244 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:37,246 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:39,249 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:40,250 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:54:40,250 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:54:41,252 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:43,257 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:45,261 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:47,264 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:49,268 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:51,272 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:53,274 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:55,279 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:55,824 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:54:55,825 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:54:57,282 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:54:59,286 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:01,289 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:03,191 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:55:03,294 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:05,296 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:07,313 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:09,315 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:11,318 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:12,939 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:55:12,940 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:55:13,321 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:15,325 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:17,329 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:19,332 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:21,335 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:23,339 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:25,342 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:27,345 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:28,631 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:55:28,631 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:55:29,349 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:31,352 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:33,355 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:34,126 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:55:35,358 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:37,362 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:38,365 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:40,368 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:42,370 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:44,165 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:55:44,165 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:55:44,373 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:46,376 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:48,380 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:50,383 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:52,385 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:54,389 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:56,394 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:58,398 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:55:59,670 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:55:59,670 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:56:00,402 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:02,405 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:04,409 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:05,060 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:56:06,413 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:08,417 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:10,420 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:12,423 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:14,427 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:15,514 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:56:15,515 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:56:16,431 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:18,433 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:20,436 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:22,439 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:24,443 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:26,447 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:28,450 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:30,453 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:31,101 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:56:31,101 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:56:32,456 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:34,460 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:35,986 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:56:36,464 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:38,469 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:40,471 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:42,474 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:44,479 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:46,481 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:46,643 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:56:46,643 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:56:48,484 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:50,489 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:52,492 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:54,527 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:56,531 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:56:58,535 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:00,539 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:02,296 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:57:02,296 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:57:02,542 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:04,546 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:06,550 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:06,921 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:57:08,554 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:10,557 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:12,561 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:14,565 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:16,568 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:17,894 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:57:17,894 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:57:18,572 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:20,576 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:22,581 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:24,702 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:26,706 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:28,710 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:30,715 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:32,719 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:33,460 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:57:33,460 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:57:34,722 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:36,725 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:37,857 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:57:38,728 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:40,734 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:42,737 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:44,741 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:46,744 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:48,747 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:49,023 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:57:49,024 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:57:50,751 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:52,757 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:54,761 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:56,765 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:57:58,815 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:00,818 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:02,822 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:04,634 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:58:04,634 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:58:04,826 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:06,830 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:08,788 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:58:08,834 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:10,851 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:12,853 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:14,857 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:16,860 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:18,864 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:20,305 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:58:20,305 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:58:20,867 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:22,870 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:24,873 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:26,876 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:28,880 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:30,884 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:32,886 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:34,890 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:35,995 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:58:35,995 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:58:36,893 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:38,895 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:39,745 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:58:40,900 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:42,903 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:44,906 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:46,910 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:48,912 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:50,916 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:51,664 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:58:51,664 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:58:52,919 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:55,061 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:57,065 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:58:59,068 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:01,071 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:03,077 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:05,081 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:07,084 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:07,506 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:59:07,506 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:59:09,088 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:10,678 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:59:11,091 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:13,094 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:15,098 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:17,102 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:19,105 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:21,109 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:23,025 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:59:23,026 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:59:23,113 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:25,116 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:27,120 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:29,126 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:31,129 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:33,133 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:35,136 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:37,139 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:38,610 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:59:38,611 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:59:39,142 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:41,146 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:41,602 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 19:59:43,149 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:45,153 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:47,157 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:49,161 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:51,164 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:53,169 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:54,205 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 19:59:54,205 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 19:59:55,173 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:57,177 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 19:59:59,180 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:01,185 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:03,199 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:05,202 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:07,206 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:09,210 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:09,906 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:00:09,907 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:00:11,215 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:12,535 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 20:00:13,219 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:15,224 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:17,228 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:19,232 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:21,236 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:23,239 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:25,242 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:25,585 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:00:25,586 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:00:27,247 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:29,250 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:31,255 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:33,259 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:35,264 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:37,286 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:39,290 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:41,265 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:00:41,265 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:00:41,295 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:43,300 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:43,567 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 20:00:45,306 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:47,312 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:49,316 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:51,322 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:53,325 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:55,329 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:56,789 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:00:56,790 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:00:57,332 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:00:59,336 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:01,341 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:03,344 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:05,347 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:07,352 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:09,355 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:11,358 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:12,398 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:01:12,404 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:01:13,363 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:14,499 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 20:01:15,433 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:17,436 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:19,439 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:21,443 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:23,446 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:25,450 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:27,453 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:28,008 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:01:28,008 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:01:29,457 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:31,461 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:33,553 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:35,558 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:37,561 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:39,627 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:41,632 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:43,628 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:01:43,629 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:01:43,639 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:45,421 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 20:01:45,641 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:47,645 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:49,649 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:51,652 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:53,665 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:55,668 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:57,672 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:59,676 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:01:59,944 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:01:59,945 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:02:01,679 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:03,682 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:05,687 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:07,691 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:09,694 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:11,698 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:13,701 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:15,629 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:02:15,629 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:02:15,705 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:16,346 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 20:02:17,710 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:19,712 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:21,715 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:23,720 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:25,723 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:27,726 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:29,729 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:31,228 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:02:31,228 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:02:31,733 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:33,736 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:35,740 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:37,743 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:39,746 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:41,749 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:43,752 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:45,757 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:46,993 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:02:46,993 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:02:47,522 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 20:02:47,759 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:49,763 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:51,766 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:53,769 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:55,772 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:57,776 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:02:59,779 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:01,782 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:02,523 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:03:02,524 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:03:03,785 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:05,802 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:07,806 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:09,808 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:11,813 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:13,816 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:15,819 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:17,823 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:18,195 DEBUG   SenderThread:8860 [sender.py:send():182] send: stats
+2021-09-13 20:03:19,827 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:19,871 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:03:19,872 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:03:21,830 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:23,834 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:25,837 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:27,841 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:29,846 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:31,850 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:33,853 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:35,886 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:35,949 DEBUG   HandlerThread:8860 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 20:03:35,951 DEBUG   SenderThread:8860 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 20:03:37,938 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:39,542 ERROR   SenderThread:8860 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\HP\anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001FC669DFC70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\HP\anaconda3\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FC669DFC70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FC669DFC70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-09-13 20:03:39,979 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:42,947 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:43,005 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:45,012 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:47,020 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:49,027 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:51,035 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:53,157 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:55,163 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:57,172 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:03:59,446 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:04:01,453 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:04:03,458 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:04:05,471 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:04:07,478 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:04:09,486 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:04:11,493 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log
+2021-09-13 20:04:13,574 INFO    Thread-8  :8860 [dir_watcher.py:_on_file_modified():230] file/dir modified: F:\5th sem project\wandb\run-20210913_195350-10kxla2x\files\output.log

@@ -1,0 +1,155 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.3207 - accuracy: 0.3175
+85/85 [==============================] - 36s 356ms/step - loss: 1.3207 - accuracy: 0.3175 - val_loss: 1.1972 - val_accuracy: 0.4048
+Epoch 2/60
+
+
+
+
+
+78/85 [==========================>...] - ETA: 1s - loss: 1.1770 - accuracy: 0.4322
+85/85 [==============================] - 14s 159ms/step - loss: 1.1772 - accuracy: 0.4256 - val_loss: 1.1964 - val_accuracy: 0.4167
+Epoch 3/60
+
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.0819 - accuracy: 0.4605
+85/85 [==============================] - 14s 168ms/step - loss: 1.0819 - accuracy: 0.4605 - val_loss: 1.1215 - val_accuracy: 0.4881
+Epoch 4/60
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.0459 - accuracy: 0.4913
+85/85 [==============================] - 14s 164ms/step - loss: 1.0459 - accuracy: 0.4913 - val_loss: 1.1270 - val_accuracy: 0.4524
+Epoch 5/60
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.0552 - accuracy: 0.4896
+85/85 [==============================] - 14s 164ms/step - loss: 1.0552 - accuracy: 0.4896 - val_loss: 1.1800 - val_accuracy: 0.5119
+Epoch 6/60
+
+
+
+
+
+
+84/85 [============================>.] - ETA: 0s - loss: 1.0486 - accuracy: 0.4945
+85/85 [==============================] - 14s 166ms/step - loss: 1.0463 - accuracy: 0.4963 - val_loss: 1.1688 - val_accuracy: 0.5357
+Epoch 7/60
+
+
+
+
+
+
+86/85 [==============================] - ETA: 0s - loss: 1.0100 - accuracy: 0.5278
+85/85 [==============================] - 14s 164ms/step - loss: 1.0100 - accuracy: 0.5278 - val_loss: 1.0821 - val_accuracy: 0.6310
+Epoch 8/60
+
+
+
+
+
+
+85/85 [============================>.] - ETA: 0s - loss: 0.9730 - accuracy: 0.5694
+85/85 [==============================] - 14s 163ms/step - loss: 0.9675 - accuracy: 0.5727 - val_loss: 0.9902 - val_accuracy: 0.6548
+Epoch 9/60
+
+
+
+
+
+
+81/85 [===========================>..] - ETA: 0s - loss: 0.9238 - accuracy: 0.6046
+85/85 [==============================] - 14s 164ms/step - loss: 0.9180 - accuracy: 0.6076 - val_loss: 1.0838 - val_accuracy: 0.5595
+Epoch 10/60
+
+
+
+
+
+
+85/85 [==============================] - 15s 171ms/step - loss: 0.9170 - accuracy: 0.6143 - val_loss: 0.8831 - val_accuracy: 0.7024
+Epoch 11/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+
+83/85 [===========================>..] - ETA: 0s - loss: 0.9124 - accuracy: 0.6357
+85/85 [==============================] - 15s 179ms/step - loss: 0.9141 - accuracy: 0.6367 - val_loss: 0.9612 - val_accuracy: 0.6429
+Epoch 12/60
+
+
+
+
+
+
+85/85 [==============================] - 15s 169ms/step - loss: 0.7995 - accuracy: 0.6908 - val_loss: 1.1081 - val_accuracy: 0.6429
+Epoch 13/60
+ 2/85 [..............................] - ETA: 10s - loss: 0.7473 - accuracy: 0.7500
+
+
+
+
+
+
+78/85 [==========================>...] - ETA: 1s - loss: 0.7799 - accuracy: 0.7058
+85/85 [==============================] - 14s 164ms/step - loss: 0.7783 - accuracy: 0.7074 - val_loss: 0.9639 - val_accuracy: 0.6310
+Epoch 14/60
+
+
+
+
+
+
+85/85 [==============================] - 15s 169ms/step - loss: 0.7850 - accuracy: 0.7049 - val_loss: 0.9279 - val_accuracy: 0.7381
+Epoch 15/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+85/85 [==============================] - 14s 162ms/step - loss: 0.7810 - accuracy: 0.7116 - val_loss: 0.8909 - val_accuracy: 0.7143
+Epoch 16/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+
+
+
+
+85/85 [==============================] - 14s 162ms/step - loss: 0.6917 - accuracy: 0.7523 - val_loss: 0.9231 - val_accuracy: 0.6667
+Epoch 17/60
+wandb: WARNING No validation_data set, pass a generator to the callback.
+
+

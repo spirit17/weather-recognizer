@@ -1,0 +1,282 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/25
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 23s 604ms/step - loss: 1.1997 - accuracy: 0.4638 - val_loss: 1.2468 - val_accuracy: 0.4762
+Epoch 2/25
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 24s 618ms/step - loss: 0.9303 - accuracy: 0.6218 - val_loss: 1.1776 - val_accuracy: 0.5833
+Epoch 3/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 556ms/step - loss: 0.8470 - accuracy: 0.6633 - val_loss: 0.9740 - val_accuracy: 0.6429
+Epoch 4/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 544ms/step - loss: 0.7814 - accuracy: 0.6949 - val_loss: 1.0438 - val_accuracy: 0.6429
+Epoch 5/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 20s 539ms/step - loss: 0.7424 - accuracy: 0.7149 - val_loss: 1.1038 - val_accuracy: 0.6429
+Epoch 6/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 547ms/step - loss: 0.7337 - accuracy: 0.7406 - val_loss: 1.1078 - val_accuracy: 0.5833
+Epoch 7/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 547ms/step - loss: 0.6609 - accuracy: 0.7465 - val_loss: 0.8663 - val_accuracy: 0.7024
+Epoch 8/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 20s 536ms/step - loss: 0.6320 - accuracy: 0.7623 - val_loss: 0.9345 - val_accuracy: 0.6905
+Epoch 9/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 550ms/step - loss: 0.5926 - accuracy: 0.7789 - val_loss: 1.0809 - val_accuracy: 0.6667
+Epoch 10/25
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 547ms/step - loss: 0.5969 - accuracy: 0.7714 - val_loss: 0.9956 - val_accuracy: 0.7262
+Epoch 11/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 543ms/step - loss: 0.5002 - accuracy: 0.8113 - val_loss: 0.9811 - val_accuracy: 0.6548
+Epoch 12/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 545ms/step - loss: 0.4611 - accuracy: 0.8213 - val_loss: 0.9692 - val_accuracy: 0.7262
+Epoch 13/25
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 550ms/step - loss: 0.4462 - accuracy: 0.8213 - val_loss: 1.1217 - val_accuracy: 0.7262
+Epoch 14/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 547ms/step - loss: 0.4783 - accuracy: 0.8263 - val_loss: 1.0221 - val_accuracy: 0.6667
+Epoch 15/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 568ms/step - loss: 0.4050 - accuracy: 0.8570 - val_loss: 1.0215 - val_accuracy: 0.6786
+Epoch 16/25
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 23s 600ms/step - loss: 0.4136 - accuracy: 0.8462 - val_loss: 1.0312 - val_accuracy: 0.7500
+Epoch 17/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 562ms/step - loss: 0.3859 - accuracy: 0.8479 - val_loss: 1.1541 - val_accuracy: 0.7262
+Epoch 18/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 556ms/step - loss: 0.3193 - accuracy: 0.8836 - val_loss: 1.0403 - val_accuracy: 0.7381
+Epoch 19/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 558ms/step - loss: 0.3151 - accuracy: 0.8886 - val_loss: 1.1130 - val_accuracy: 0.7143
+Epoch 20/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 559ms/step - loss: 0.3058 - accuracy: 0.8886 - val_loss: 1.1615 - val_accuracy: 0.7024
+Epoch 21/25
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 568ms/step - loss: 0.2859 - accuracy: 0.8936 - val_loss: 1.1655 - val_accuracy: 0.6786
+Epoch 22/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 22s 570ms/step - loss: 0.2453 - accuracy: 0.9160 - val_loss: 1.0529 - val_accuracy: 0.7024
+Epoch 23/25
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 571ms/step - loss: 0.2268 - accuracy: 0.9152 - val_loss: 1.2566 - val_accuracy: 0.7381
+Epoch 24/25
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 564ms/step - loss: 0.2775 - accuracy: 0.8978 - val_loss: 1.2878 - val_accuracy: 0.7143
+Epoch 25/25
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 21s 570ms/step - loss: 0.2446 - accuracy: 0.9094 - val_loss: 1.1043 - val_accuracy: 0.7500
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:46.062557, resuming normal operation.

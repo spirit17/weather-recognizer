@@ -1,0 +1,35 @@
+2021-09-04 14:35:14,875 INFO    MainThread:2968 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-04 14:35:14,875 INFO    MainThread:2968 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210904_143514-3dkw39fb\logs\debug.log
+2021-09-04 14:35:14,876 INFO    MainThread:2968 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210904_143514-3dkw39fb\logs\debug-internal.log
+2021-09-04 14:35:14,877 INFO    MainThread:2968 [wandb_init.py:init():375] calling init triggers
+2021-09-04 14:35:14,877 INFO    MainThread:2968 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-04 14:35:14,877 INFO    MainThread:2968 [wandb_init.py:init():424] starting backend
+2021-09-04 14:35:14,878 INFO    MainThread:2968 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-04 14:35:14,882 INFO    MainThread:2968 [backend.py:ensure_launched():135] starting backend process...
+2021-09-04 14:35:15,017 INFO    MainThread:2968 [backend.py:ensure_launched():139] started backend process with pid: 10012
+2021-09-04 14:35:15,018 INFO    MainThread:2968 [wandb_init.py:init():429] backend started and connected
+2021-09-04 14:35:15,018 INFO    MainThread:2968 [wandb_run.py:_label_probe_notebook():815] probe notebook
+2021-09-04 14:35:15,020 INFO    MainThread:2968 [wandb_run.py:_label_probe_notebook():822] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-04 14:35:15,020 INFO    MainThread:2968 [wandb_init.py:init():477] updated telemetry
+2021-09-04 14:35:15,021 INFO    MainThread:2968 [wandb_init.py:init():500] communicating current version
+2021-09-04 14:35:18,427 INFO    MainThread:2968 [wandb_init.py:init():505] got version response upgrade_message: "wandb version 0.12.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-09-04 14:35:18,429 INFO    MainThread:2968 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-09-04 14:35:19,048 INFO    MainThread:2968 [wandb_init.py:init():540] starting run threads in backend
+2021-09-04 14:35:24,063 INFO    MainThread:2968 [wandb_run.py:_console_start():1601] atexit reg
+2021-09-04 14:35:24,064 INFO    MainThread:2968 [wandb_run.py:_redirect():1475] redirect: SettingsConsole.WRAP
+2021-09-04 14:35:24,065 INFO    MainThread:2968 [wandb_run.py:_redirect():1512] Wrapping output streams.
+2021-09-04 14:35:24,068 INFO    MainThread:2968 [wandb_run.py:_redirect():1536] Redirects installed.
+2021-09-04 14:35:24,068 INFO    MainThread:2968 [wandb_init.py:init():565] run started, returning control to user process
+2021-09-04 14:35:24,247 INFO    MainThread:2968 [wandb_init.py:_pause_backend():256] pausing backend
+2021-09-04 14:35:24,248 INFO    MainThread:2968 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-04 14:36:32,901 INFO    MainThread:2968 [wandb_init.py:_resume_backend():265] resuming backend
+2021-09-04 14:36:32,931 INFO    MainThread:2968 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-04 14:36:32,931 INFO    MainThread:2968 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210904_143632-1tq3a5nh\logs\debug.log
+2021-09-04 14:36:32,932 INFO    MainThread:2968 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210904_143632-1tq3a5nh\logs\debug-internal.log
+2021-09-04 14:36:32,933 INFO    MainThread:2968 [wandb_init.py:init():375] calling init triggers
+2021-09-04 14:36:32,933 INFO    MainThread:2968 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-04 14:36:32,933 INFO    MainThread:2968 [wandb_init.py:init():395] re-initializing run, found existing run on stack: 3dkw39fb
+2021-09-04 14:36:32,990 INFO    MainThread:2968 [wandb_run.py:finish():1271] finishing run khushal/final-weather-recognization/3dkw39fb

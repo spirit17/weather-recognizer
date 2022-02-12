@@ -1,0 +1,204 @@
+2021-09-01 00:48:40,348 INFO    MainThread:4484 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-01 00:48:40,349 INFO    MainThread:4484 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-01 00:48:40,349 INFO    MainThread:4484 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-01 00:48:40,350 INFO    MainThread:4484 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210901_004840-9krvo32h\logs\debug.log
+2021-09-01 00:48:40,350 INFO    MainThread:4484 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210901_004840-9krvo32h\logs\debug-internal.log
+2021-09-01 00:48:40,352 INFO    MainThread:4484 [wandb_init.py:init():375] calling init triggers
+2021-09-01 00:48:40,385 INFO    MainThread:4484 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-01 00:48:40,386 INFO    MainThread:4484 [wandb_init.py:init():395] re-initializing run, found existing run on stack: 23h02czt
+2021-09-01 00:48:40,386 INFO    MainThread:4484 [wandb_run.py:finish():1254] finishing run khushal/pipweather-recognization/23h02czt
+2021-09-01 00:48:40,387 INFO    MainThread:4484 [jupyter.py:save_history():339] not saving jupyter history
+2021-09-01 00:48:40,387 INFO    MainThread:4484 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-01 00:48:40,387 INFO    MainThread:4484 [wandb_init.py:_jupyter_teardown():275] cleaning up jupyter logic
+2021-09-01 00:48:40,387 INFO    MainThread:4484 [wandb_run.py:_atexit_cleanup():1554] got exitcode: 0
+2021-09-01 00:48:40,388 INFO    MainThread:4484 [wandb_run.py:_restore():1526] restore
+2021-09-01 00:48:40,486 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 476
+}
+
+2021-09-01 00:48:40,680 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 476
+}
+
+2021-09-01 00:48:41,284 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 476
+}
+
+2021-09-01 00:48:41,612 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 19557
+}
+
+2021-09-01 00:48:41,733 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:41,839 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:41,941 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,045 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,148 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,260 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,367 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 476
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,470 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 503
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,575 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,679 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,785 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,887 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:42,996 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:43,101 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:43,206 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:43,957 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:44,060 INFO    MainThread:4484 [wandb_run.py:_wait_for_finish():1676] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 19584
+  total_bytes: 19584
+}
+
+2021-09-01 00:48:45,889 INFO    MainThread:4484 [wandb_run.py:_show_files():1898] logging synced files
+2021-09-01 00:48:45,901 INFO    MainThread:4484 [wandb_init.py:init():424] starting backend
+2021-09-01 00:48:45,901 INFO    MainThread:4484 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-01 00:48:45,911 INFO    MainThread:4484 [backend.py:ensure_launched():135] starting backend process...
+2021-09-01 00:48:46,728 INFO    MainThread:4484 [backend.py:ensure_launched():139] started backend process with pid: 21524
+2021-09-01 00:48:46,730 INFO    MainThread:4484 [wandb_init.py:init():429] backend started and connected
+2021-09-01 00:48:46,731 INFO    MainThread:4484 [wandb_run.py:_label_probe_notebook():798] probe notebook
+2021-09-01 00:48:46,732 INFO    MainThread:4484 [wandb_run.py:_label_probe_notebook():805] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-01 00:48:46,732 INFO    MainThread:4484 [wandb_init.py:init():477] updated telemetry
+2021-09-01 00:48:46,733 INFO    MainThread:4484 [wandb_init.py:init():500] communicating current version
+2021-09-01 00:48:51,734 INFO    MainThread:4484 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-09-01 00:48:54,222 INFO    MainThread:4484 [wandb_init.py:init():540] starting run threads in backend
+2021-09-01 00:48:59,260 INFO    MainThread:4484 [wandb_run.py:_console_start():1584] atexit reg
+2021-09-01 00:48:59,262 INFO    MainThread:4484 [wandb_run.py:_redirect():1458] redirect: SettingsConsole.WRAP
+2021-09-01 00:48:59,263 INFO    MainThread:4484 [wandb_run.py:_redirect():1495] Wrapping output streams.
+2021-09-01 00:48:59,270 INFO    MainThread:4484 [wandb_run.py:_redirect():1519] Redirects installed.
+2021-09-01 00:48:59,270 INFO    MainThread:4484 [wandb_init.py:init():565] run started, returning control to user process
+2021-09-01 01:14:50,440 INFO    MainThread:4484 [wandb_run.py:finish():1254] finishing run khushal/pipweather-recognization/9krvo32h

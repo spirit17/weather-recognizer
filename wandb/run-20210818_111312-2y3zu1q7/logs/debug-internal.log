@@ -1,0 +1,33 @@
+2021-08-18 11:13:24,806 INFO    MainThread:13556 [internal.py:wandb_internal():86] W&B internal server running at pid: 13556, started at: 2021-08-18 11:13:24.790789
+2021-08-18 11:13:24,822 INFO    WriterThread:13556 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\run-2y3zu1q7.wandb
+2021-08-18 11:13:24,822 DEBUG   HandlerThread:13556 [handler.py:handle_request():128] handle_request: check_version
+2021-08-18 11:13:24,822 DEBUG   SenderThread:13556 [sender.py:send():182] send: header
+2021-08-18 11:13:24,822 DEBUG   SenderThread:13556 [sender.py:send_request():196] send_request: check_version
+2021-08-18 11:13:26,394 DEBUG   SenderThread:13556 [sender.py:send():182] send: run
+2021-08-18 11:13:27,210 DEBUG   HandlerThread:13556 [handler.py:handle_request():128] handle_request: run_start
+2021-08-18 11:13:27,225 INFO    SenderThread:13556 [dir_watcher.py:__init__():168] watching files in: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files
+2021-08-18 11:13:27,225 INFO    SenderThread:13556 [sender.py:_start_run_threads():740] run started: 2y3zu1q7 with start time 1629265399
+2021-08-18 11:13:27,225 DEBUG   SenderThread:13556 [sender.py:send():182] send: summary
+2021-08-18 11:13:27,225 INFO    SenderThread:13556 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 11:13:28,336 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\wandb-summary.json
+2021-08-18 11:13:32,369 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:34,397 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:37,399 DEBUG   HandlerThread:13556 [meta.py:__init__():39] meta init
+2021-08-18 11:13:37,399 DEBUG   HandlerThread:13556 [meta.py:__init__():53] meta init done
+2021-08-18 11:13:37,399 DEBUG   HandlerThread:13556 [meta.py:probe():210] probe
+2021-08-18 11:13:37,431 DEBUG   HandlerThread:13556 [meta.py:_save_pip():57] save pip
+2021-08-18 11:13:37,462 DEBUG   HandlerThread:13556 [meta.py:_save_pip():71] save pip done
+2021-08-18 11:13:37,462 DEBUG   HandlerThread:13556 [meta.py:_save_conda():78] save conda
+2021-08-18 11:13:38,436 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:38,436 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\conda-environment.yaml
+2021-08-18 11:13:38,436 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\requirements.txt
+2021-08-18 11:13:40,470 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:42,636 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:44,626 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:46,650 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:48,681 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:50,713 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:52,786 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:54,788 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:56,865 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log
+2021-08-18 11:13:57,865 INFO    Thread-8  :13556 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210818_111312-2y3zu1q7\files\output.log

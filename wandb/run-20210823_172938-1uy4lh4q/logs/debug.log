@@ -1,0 +1,39 @@
+2021-08-23 17:29:38,845 INFO    MainThread:19048 [wandb_setup.py:_flush():69] setting env: {}
+2021-08-23 17:29:38,875 INFO    MainThread:19048 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-23 17:29:38,879 INFO    MainThread:19048 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-23 17:29:38,886 INFO    MainThread:19048 [wandb_init.py:_log_setup():342] Logging user logs to F:\5th sem project\wandb\run-20210823_172938-1uy4lh4q\logs\debug.log
+2021-08-23 17:29:38,890 INFO    MainThread:19048 [wandb_init.py:_log_setup():343] Logging internal logs to F:\5th sem project\wandb\run-20210823_172938-1uy4lh4q\logs\debug-internal.log
+2021-08-23 17:29:38,891 INFO    MainThread:19048 [wandb_init.py:init():375] calling init triggers
+2021-08-23 17:29:39,010 INFO    MainThread:19048 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-08-23 17:29:39,012 INFO    MainThread:19048 [wandb_init.py:init():395] re-initializing run, found existing run on stack: 2razn0jy
+2021-08-23 17:29:39,012 INFO    MainThread:19048 [wandb_run.py:finish():1254] finishing run khushal/weather-recognization/2razn0jy
+2021-08-23 17:29:39,013 INFO    MainThread:19048 [jupyter.py:save_history():339] not saving jupyter history
+2021-08-23 17:29:39,013 INFO    MainThread:19048 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-08-23 17:29:39,014 INFO    MainThread:19048 [wandb_init.py:_jupyter_teardown():275] cleaning up jupyter logic
+2021-08-23 17:29:39,014 INFO    MainThread:19048 [wandb_run.py:_atexit_cleanup():1554] got exitcode: 0
+2021-08-23 17:29:39,015 INFO    MainThread:19048 [wandb_run.py:_restore():1526] restore
+2021-08-23 17:29:45,023 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:29:50,125 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:29:55,226 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:00,327 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:05,427 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:10,527 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:15,628 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:20,728 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:25,829 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:30,929 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:36,030 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:41,133 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:46,234 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:51,335 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:56,436 INFO    MainThread:19048 [wandb_run.py:_wait_for_finish():1676] got exit ret: None
+2021-08-23 17:30:56,539 INFO    MainThread:19048 [wandb_init.py:init():424] starting backend
+2021-08-23 17:30:56,539 INFO    MainThread:19048 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-08-23 17:30:56,547 INFO    MainThread:19048 [backend.py:ensure_launched():135] starting backend process...
+2021-08-23 17:30:56,826 INFO    MainThread:19048 [backend.py:ensure_launched():139] started backend process with pid: 6552
+2021-08-23 17:30:56,828 INFO    MainThread:19048 [wandb_init.py:init():429] backend started and connected
+2021-08-23 17:30:56,829 INFO    MainThread:19048 [wandb_run.py:_label_probe_notebook():798] probe notebook
+2021-08-23 17:30:56,829 INFO    MainThread:19048 [wandb_run.py:_label_probe_notebook():805] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-08-23 17:30:56,850 INFO    MainThread:19048 [wandb_init.py:init():477] updated telemetry
+2021-08-23 17:30:56,854 INFO    MainThread:19048 [wandb_init.py:init():500] communicating current version

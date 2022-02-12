@@ -1,0 +1,160 @@
+Found 1203 images belonging to 4 classes.
+Found 84 images belonging to 4 classes.
+Epoch 1/50
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 25s 639ms/step - loss: 1.1700 - accuracy: 0.4896 - val_loss: 1.1027 - val_accuracy: 0.4048
+Epoch 2/50
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 28s 747ms/step - loss: 0.9062 - accuracy: 0.6475 - val_loss: 0.9544 - val_accuracy: 0.6905
+Epoch 3/50
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 23s 606ms/step - loss: 0.8078 - accuracy: 0.6800 - val_loss: 1.1088 - val_accuracy: 0.5714
+Epoch 4/50
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 25s 658ms/step - loss: 0.7441 - accuracy: 0.7182 - val_loss: 0.8945 - val_accuracy: 0.6667
+Epoch 5/50
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 24s 640ms/step - loss: 0.6373 - accuracy: 0.7639 - val_loss: 0.8635 - val_accuracy: 0.7381
+Epoch 6/50
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 24s 641ms/step - loss: 0.6112 - accuracy: 0.7731 - val_loss: 0.8293 - val_accuracy: 0.6905
+Epoch 7/50
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 24s 644ms/step - loss: 0.5524 - accuracy: 0.8013 - val_loss: 0.9817 - val_accuracy: 0.6667
+Epoch 8/50
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 26s 686ms/step - loss: 0.5290 - accuracy: 0.7947 - val_loss: 0.9477 - val_accuracy: 0.6786
+Epoch 9/50
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 25s 667ms/step - loss: 0.4800 - accuracy: 0.8263 - val_loss: 0.8771 - val_accuracy: 0.7262
+Epoch 10/50
+
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 24s 637ms/step - loss: 0.4532 - accuracy: 0.8296 - val_loss: 0.8430 - val_accuracy: 0.7500
+Epoch 11/50
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 23s 602ms/step - loss: 0.4254 - accuracy: 0.8545 - val_loss: 0.9142 - val_accuracy: 0.7262
+Epoch 12/50
+
+
+
+
+
+
+
+
+
+
+37/37 [==============================] - 23s 616ms/step - loss: 0.4370 - accuracy: 0.8329 - val_loss: 0.9262 - val_accuracy: 0.7381
+Epoch 13/50
+
+
+
+
+
+
+

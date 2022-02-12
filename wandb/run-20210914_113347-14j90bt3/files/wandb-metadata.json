@@ -1,0 +1,15 @@
+{
+    "os": "Windows-10-10.0.18363-SP0",
+    "python": "3.8.11",
+    "heartbeatAt": "2021-09-14T06:03:57.966370",
+    "startedAt": "2021-09-14T06:03:47.112141",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "khushal",
+    "username": "HP",
+    "executable": "C:\\Users\\HP\\anaconda3\\python.exe"
+}

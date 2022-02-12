@@ -1,0 +1,87 @@
+2021-08-26 18:53:24,870 INFO    MainThread:17196 [internal.py:wandb_internal():86] W&B internal server running at pid: 17196, started at: 2021-08-26 18:53:24.860341
+2021-08-26 18:53:24,875 INFO    WriterThread:17196 [datastore.py:open_for_write():77] open: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\run-2xtrqk8f.wandb
+2021-08-26 18:53:24,875 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: check_version
+2021-08-26 18:53:24,879 DEBUG   SenderThread:17196 [sender.py:send():182] send: header
+2021-08-26 18:53:24,879 DEBUG   SenderThread:17196 [sender.py:send_request():196] send_request: check_version
+2021-08-26 18:53:27,541 DEBUG   SenderThread:17196 [sender.py:send():182] send: run
+2021-08-26 18:53:28,570 INFO    SenderThread:17196 [dir_watcher.py:__init__():168] watching files in: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files
+2021-08-26 18:53:28,570 INFO    SenderThread:17196 [sender.py:_start_run_threads():740] run started: 2xtrqk8f with start time 1629984202
+2021-08-26 18:53:28,570 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: run_start
+2021-08-26 18:53:28,570 DEBUG   SenderThread:17196 [sender.py:send():182] send: summary
+2021-08-26 18:53:28,572 INFO    SenderThread:17196 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-26 18:53:29,579 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\wandb-summary.json
+2021-08-26 18:53:32,541 DEBUG   HandlerThread:17196 [meta.py:__init__():39] meta init
+2021-08-26 18:53:32,541 DEBUG   HandlerThread:17196 [meta.py:__init__():53] meta init done
+2021-08-26 18:53:32,541 DEBUG   HandlerThread:17196 [meta.py:probe():210] probe
+2021-08-26 18:53:32,548 DEBUG   HandlerThread:17196 [meta.py:_save_pip():57] save pip
+2021-08-26 18:53:32,552 DEBUG   HandlerThread:17196 [meta.py:_save_pip():71] save pip done
+2021-08-26 18:53:32,552 DEBUG   HandlerThread:17196 [meta.py:_save_conda():78] save conda
+2021-08-26 18:53:32,591 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\conda-environment.yaml
+2021-08-26 18:53:32,591 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\requirements.txt
+2021-08-26 18:53:33,597 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\output.log
+2021-08-26 18:53:53,078 DEBUG   HandlerThread:17196 [meta.py:_save_conda():86] save conda done
+2021-08-26 18:53:53,078 DEBUG   HandlerThread:17196 [meta.py:probe():252] probe done
+2021-08-26 18:53:53,112 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-26 18:53:53,112 DEBUG   SenderThread:17196 [sender.py:send_request():196] send_request: stop_status
+2021-08-26 18:53:53,116 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: pause
+2021-08-26 18:53:53,116 INFO    HandlerThread:17196 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-26 18:53:53,235 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: resume
+2021-08-26 18:53:53,236 INFO    HandlerThread:17196 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-26 18:53:53,236 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: pause
+2021-08-26 18:53:53,237 INFO    HandlerThread:17196 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-26 18:53:53,325 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: resume
+2021-08-26 18:53:53,325 INFO    HandlerThread:17196 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-26 18:53:53,328 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: pause
+2021-08-26 18:53:53,328 INFO    HandlerThread:17196 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-26 18:53:53,416 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: resume
+2021-08-26 18:53:53,416 INFO    HandlerThread:17196 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-26 18:53:53,417 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: pause
+2021-08-26 18:53:53,417 INFO    HandlerThread:17196 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-26 18:53:53,607 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\conda-environment.yaml
+2021-08-26 18:53:53,608 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\wandb-metadata.json
+2021-08-26 18:53:54,234 DEBUG   SenderThread:17196 [sender.py:send():182] send: history
+2021-08-26 18:53:54,234 DEBUG   SenderThread:17196 [sender.py:send():182] send: summary
+2021-08-26 18:53:54,240 INFO    SenderThread:17196 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-26 18:53:54,242 DEBUG   SenderThread:17196 [sender.py:send():182] send: files
+2021-08-26 18:53:54,242 INFO    SenderThread:17196 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-26 18:53:54,243 DEBUG   SenderThread:17196 [sender.py:send():182] send: stats
+2021-08-26 18:53:54,244 DEBUG   SenderThread:17196 [sender.py:send():182] send: stats
+2021-08-26 18:53:54,244 DEBUG   SenderThread:17196 [sender.py:send():182] send: stats
+2021-08-26 18:53:54,244 DEBUG   SenderThread:17196 [sender.py:send():182] send: stats
+2021-08-26 18:53:54,608 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\wandb-summary.json
+2021-08-26 18:53:55,601 INFO    Thread-14 :17196 [upload_job.py:push():137] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpyytmtgsywandb\2hk09la0-wandb-metadata.json
+2021-08-26 18:53:57,268 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: resume
+2021-08-26 18:53:57,268 INFO    HandlerThread:17196 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-26 18:53:57,370 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: pause
+2021-08-26 18:53:57,371 INFO    HandlerThread:17196 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-26 18:53:57,469 DEBUG   SenderThread:17196 [sender.py:send():182] send: stats
+2021-08-26 18:53:59,615 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\output.log
+2021-08-26 18:54:02,794 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: resume
+2021-08-26 18:54:02,794 INFO    HandlerThread:17196 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-26 18:54:02,809 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: pause
+2021-08-26 18:54:02,809 INFO    HandlerThread:17196 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-26 18:54:03,343 DEBUG   SenderThread:17196 [sender.py:send():182] send: stats
+2021-08-26 18:54:03,619 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\output.log
+2021-08-26 18:54:09,236 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-26 18:54:09,236 DEBUG   SenderThread:17196 [sender.py:send_request():196] send_request: stop_status
+2021-08-26 18:54:09,271 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: resume
+2021-08-26 18:54:09,271 INFO    HandlerThread:17196 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-26 18:54:09,272 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: get_summary
+2021-08-26 18:54:10,279 DEBUG   SenderThread:17196 [sender.py:send():182] send: files
+2021-08-26 18:54:10,279 INFO    SenderThread:17196 [sender.py:_save_file():873] saving file model-best.h5 with policy live
+2021-08-26 18:54:13,640 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\output.log
+2021-08-26 18:54:15,851 DEBUG   SenderThread:17196 [sender.py:send():182] send: files
+2021-08-26 18:54:15,851 INFO    SenderThread:17196 [sender.py:_save_file():873] saving file media\graph\graph_summary_a3c22bccd6147d657820.graph.json with policy now
+2021-08-26 18:54:15,879 DEBUG   SenderThread:17196 [sender.py:send():182] send: summary
+2021-08-26 18:54:15,887 INFO    SenderThread:17196 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-26 18:54:16,644 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\wandb-summary.json
+2021-08-26 18:54:16,644 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\media\graph\graph_summary_a3c22bccd6147d657820.graph.json
+2021-08-26 18:54:16,645 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\media
+2021-08-26 18:54:16,645 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_created():216] file/dir created: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\media\graph
+2021-08-26 18:54:17,655 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\output.log
+2021-08-26 18:54:18,157 INFO    Thread-18 :17196 [upload_job.py:push():137] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpyytmtgsywandb\2ratr6hy-media/graph/graph_summary_a3c22bccd6147d657820.graph.json
+2021-08-26 18:54:19,794 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\output.log
+2021-08-26 18:54:20,238 DEBUG   HandlerThread:17196 [handler.py:handle_request():128] handle_request: pause
+2021-08-26 18:54:20,238 INFO    HandlerThread:17196 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-26 18:54:20,357 DEBUG   SenderThread:17196 [sender.py:send():182] send: stats
+2021-08-26 18:54:21,798 INFO    Thread-8  :17196 [dir_watcher.py:_on_file_modified():229] file/dir modified: F:\5th sem project\wandb\run-20210826_185314-2xtrqk8f\files\output.log

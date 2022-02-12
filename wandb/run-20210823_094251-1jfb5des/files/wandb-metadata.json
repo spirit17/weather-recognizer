@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.18363-SP0",
+    "python": "3.8.11",
+    "heartbeatAt": "2021-08-23T04:13:58.232024",
+    "startedAt": "2021-08-23T04:12:51.593403",
+    "docker": null,
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "LAPTOP-HK8UP3NT",
+    "username": "HP",
+    "executable": "C:\\Users\\HP\\anaconda3\\python.exe"
+}
